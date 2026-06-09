@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark" />
+  <title>Marcus Valério — Estratégia de Marca</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Barlow:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --s0: #090909;
+      --s1: #0E0E0E;
+      --s2: #131313;
+      --border: #1E1E1E;
+      --border-light: #282828;
+      --white: #EEECEA;
+      --muted: #525250;
+      --muted2: #848480;
+      --gold: #C8A84B;
+      --gold-dim: #7A6420;
+      --gold-glow: rgba(200,168,75,0.06);
+      --ff-head: 'Barlow Condensed', sans-serif;
+      --ff-body: 'Barlow', sans-serif;
+    }
+    html { scroll-behavior: smooth; color-scheme: dark; }
+    body {
+      background: var(--s0);
+      color: var(--white);
+      font-family: var(--ff-body);
+      font-weight: 300;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+
+    /* ── GRAIN OVERLAY ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: -200%;
+      width: 400%; height: 400%;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+      opacity: 0.028;
+      pointer-events: none;
+      z-index: 1000;
+      animation: grain 8s steps(10) infinite;
+    }
+    @keyframes grain {
+      0%,100%{transform:translate(0,0)}
+      10%{transform:translate(-2%,-3%)}
+      20%{transform:translate(3%,1%)}
+      30%{transform:translate(-1%,4%)}
+      40%{transform:translate(2%,-2%)}
+      50%{transform:translate(-3%,2%)}
+      60%{transform:translate(1%,-4%)}
+      70%{transform:translate(-2%,3%)}
+      80%{transform:translate(4%,-1%)}
+      90%{transform:translate(-1%,2%)}
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      padding: 1.25rem 2.5rem;
+      display: flex; justify-content: space-between; align-items: center;
+      transition: background 0.5s, border-color 0.5s, backdrop-filter 0.5s;
+      border-bottom: 1px solid transparent;
+    }
+    nav.scrolled {
+      background: rgba(9,9,9,0.85);
+      border-color: var(--border);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .nav-logo {
+      font-family: var(--ff-head); font-size: 0.9rem; font-weight: 800;
+      letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--white); text-decoration: none;
+    }
+    .nav-cta {
+      font-size: 0.68rem; font-weight: 500;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--gold); text-decoration: none; position: relative;
+    }
+    .nav-cta::after {
+      content: ''; position: absolute; bottom: -2px; left: 0; right: 100%;
+      height: 1px; background: var(--gold); transition: right 0.3s ease;
+    }
+    .nav-cta:hover::after { right: 0; }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100svh;
+      display: flex; flex-direction: column; justify-content: flex-end;
+      padding: 0 2.5rem 4.5rem;
+      max-width: 1100px; margin: 0 auto;
+      position: relative;
+    }
+    /* Glow radial no hero */
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 15%; left: -10%;
+      width: 60vw; height: 60vh;
+      background: radial-gradient(ellipse at center, rgba(200,168,75,0.05) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: 20%; right: -5%;
+      width: 40vw; height: 40vh;
+      background: radial-gradient(ellipse at center, rgba(200,168,75,0.03) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-tag {
+      font-size: 0.62rem; letter-spacing: 0.3em; text-transform: uppercase;
+      color: var(--muted); margin-bottom: 2rem;
+      display: flex; align-items: center; gap: 1rem;
+      opacity: 0; animation: fadeUp 0.5s ease 0.1s forwards;
+    }
+    .hero-tag::before { content: ''; width: 28px; height: 1px; background: var(--gold); flex-shrink: 0; }
+    .hero-h1 {
+      font-family: var(--ff-head);
+      font-size: clamp(3.8rem, 10vw, 9.5rem);
+      font-weight: 900; line-height: 0.9;
+      text-transform: uppercase; letter-spacing: -0.01em;
+      margin-bottom: 0.5rem; overflow: hidden;
+    }
+    .hero-h1 .line {
+      display: block;
+      opacity: 0; transform: translateY(110%);
+      animation: lineUp 0.75s cubic-bezier(0.16,1,0.3,1) forwards;
+    }
+    .hero-h1 .line:nth-child(1) { animation-delay: 0.25s; }
+    .hero-h1 .line:nth-child(2) { animation-delay: 0.4s; }
+    .hero-h1 .line:nth-child(3) { animation-delay: 0.55s; color: var(--gold); font-style: italic; }
+    .hero-frase {
+      font-size: clamp(0.8rem, 1.4vw, 0.95rem);
+      font-style: italic; color: var(--muted2);
+      margin-bottom: 3rem;
+      opacity: 0; animation: fadeUp 0.5s ease 0.85s forwards;
+    }
+    .hero-frase::before { content: '"'; color: var(--gold); margin-right: 2px; }
+    .hero-frase::after  { content: '"'; color: var(--gold); margin-left: 2px; }
+    .hero-bottom {
+      display: flex; justify-content: space-between; align-items: flex-end;
+      opacity: 0; animation: fadeUp 0.5s ease 1s forwards;
+    }
+    .hero-identity { display: flex; align-items: center; gap: 1rem; }
+    .hero-avatar {
+      width: 44px; height: 44px; border-radius: 50%;
+      object-fit: cover; object-position: top center;
+      border: 1px solid var(--border-light); filter: grayscale(15%); flex-shrink: 0;
+    }
+    .hero-identity-text { font-size: 0.72rem; color: var(--muted2); }
+    .hero-identity-text strong { display: block; color: var(--white); font-weight: 500; font-size: 0.82rem; }
+    .btn-primary {
+      display: inline-block; padding: 0.9rem 2.2rem;
+      background: var(--gold); color: var(--s0);
+      font-family: var(--ff-head); font-size: 0.76rem; font-weight: 800;
+      letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none;
+      transition: background 0.2s, transform 0.2s; border: none; cursor: pointer;
+    }
+    .btn-primary:hover { background: var(--white); transform: translateY(-2px); }
+    .hero-scroll-hint {
+      font-size: 0.58rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted);
+    }
+    .hero-cta-col { display: flex; flex-direction: column; align-items: flex-end; gap: 0.75rem; }
+
+    @keyframes lineUp { to { opacity: 1; transform: translateY(0); } }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── TICKER ── */
+    .ticker-wrap {
+      overflow: hidden; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+      padding: 0.85rem 0;
+      background: linear-gradient(90deg, var(--s1) 0%, var(--s2) 50%, var(--s1) 100%);
+    }
+    .ticker { display: flex; gap: 3.5rem; width: max-content; animation: ticker 22s linear infinite; }
+    .ticker-wrap:hover .ticker { animation-play-state: paused; }
+    .ticker span {
+      font-family: var(--ff-head); font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); white-space: nowrap;
+    }
+    .ticker span.dot { color: var(--gold); }
+    @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+    /* ── SECTION BASE ── */
+    .section { padding: 6rem 2.5rem; max-width: 1100px; margin: 0 auto; }
+    .section-label {
+      font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 3rem;
+      display: flex; align-items: center; gap: 1rem;
+    }
+    .section-label::before { content: ''; width: 20px; height: 1px; background: var(--gold); flex-shrink: 0; }
+
+    /* ── MANIFESTO ── */
+    .manifesto-wrap {
+      background: var(--s1);
+      position: relative; overflow: hidden;
+    }
+    .manifesto-wrap::before {
+      content: '';
+      position: absolute; bottom: -20%; right: -10%;
+      width: 50vw; height: 50vw;
+      background: radial-gradient(ellipse at center, rgba(200,168,75,0.04) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .manifesto-inner { max-width: 1100px; margin: 0 auto; padding: 6rem 2.5rem; position: relative; }
+    .manifesto-text {
+      font-family: var(--ff-head);
+      font-size: clamp(1.7rem, 3.8vw, 3rem);
+      font-weight: 700; line-height: 1.2; text-transform: uppercase; max-width: 860px;
+    }
+    .manifesto-text em { font-style: normal; color: var(--gold); }
+    .manifesto-text .strike {
+      text-decoration: line-through; color: var(--muted);
+      text-decoration-color: var(--gold); text-decoration-thickness: 2px;
+    }
+    .manifesto-divider { width: 40px; height: 1px; background: var(--border-light); margin: 2.5rem 0; }
+    .manifesto-note {
+      max-width: 500px; color: var(--muted2);
+      font-size: 0.92rem; line-height: 1.95; font-style: italic;
+    }
+
+    /* ── FRASE CENTRAL ── */
+    .frase-wrap {
+      background: var(--gold);
+      padding: 4.5rem 2.5rem; text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .frase-wrap::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .frase-inner { max-width: 900px; margin: 0 auto; position: relative; }
+    .frase-quote {
+      font-family: var(--ff-head);
+      font-size: clamp(2rem, 5vw, 4.5rem);
+      font-weight: 900; line-height: 1;
+      text-transform: uppercase; letter-spacing: 0.01em; color: var(--s0);
+    }
+    .frase-autor { margin-top: 1.2rem; font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(9,9,9,0.45); }
+
+    /* ── REGRAS ── */
+    .regras-wrap {
+      background: var(--s0);
+      position: relative;
+    }
+    .regras-wrap::before {
+      content: '';
+      position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+      width: 80%; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--border), transparent);
+    }
+    .regras-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      border: 1px solid var(--border);
+    }
+    @media (max-width: 700px) {
+      .regras-grid { grid-template-columns: 1fr; }
+      .regra { border-right: none !important; }
+      .regra:not(:last-child) { border-bottom: 1px solid var(--border); }
+    }
+    .regra {
+      padding: 2.5rem 2rem; border-right: 1px solid var(--border);
+      transition: background 0.3s; cursor: default; position: relative; overflow: hidden;
+    }
+    .regra::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 50% 0%, rgba(200,168,75,0.05) 0%, transparent 70%);
+      opacity: 0; transition: opacity 0.3s;
+    }
+    .regra:hover::before { opacity: 1; }
+    .regra:last-child { border-right: none; }
+    .regra:hover { background: rgba(200,168,75,0.02); }
+    .regra-num {
+      font-family: var(--ff-head); font-size: 3.5rem; font-weight: 900; line-height: 1;
+      color: var(--border-light); margin-bottom: 1.5rem; transition: color 0.3s;
+    }
+    .regra:hover .regra-num { color: var(--gold); }
+    .regra h3 {
+      font-family: var(--ff-head); font-size: 0.95rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1rem;
+    }
+    .regra p { font-size: 0.87rem; color: var(--muted2); line-height: 1.85; }
+
+    /* ── NÃO FAÇO ── */
+    .naofaco-wrap {
+      position: relative; overflow: hidden;
+      background: linear-gradient(180deg, var(--s1) 0%, var(--s2) 100%);
+    }
+    .naofaco-wrap::after {
+      content: '';
+      position: absolute; top: -30%; left: -10%;
+      width: 50vw; height: 60vh;
+      background: radial-gradient(ellipse at center, rgba(200,168,75,0.03) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .naofaco-inner { max-width: 1100px; margin: 0 auto; padding: 6rem 2.5rem; position: relative; }
+    .naofaco-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+    @media (max-width: 640px) { .naofaco-grid { grid-template-columns: 1fr; gap: 2rem; } }
+    .naofaco-left h2 {
+      font-family: var(--ff-head); font-size: clamp(2rem, 4vw, 3.2rem);
+      font-weight: 900; text-transform: uppercase; line-height: 1.05;
+    }
+    .naofaco-left h2 em { font-style: italic; color: var(--gold); }
+    .naofaco-list { list-style: none; }
+    .naofaco-list li {
+      padding: 1.1rem 0; border-bottom: 1px solid var(--border);
+      font-size: 0.88rem; color: var(--muted2); line-height: 1.8;
+      display: flex; gap: 1rem; align-items: flex-start;
+      transition: color 0.2s;
+    }
+    .naofaco-list li:first-child { border-top: 1px solid var(--border); }
+    .naofaco-list li:hover { color: var(--white); }
+    .naofaco-list li::before { content: "✕"; color: var(--gold); flex-shrink: 0; font-size: 0.75rem; margin-top: 0.15em; }
+
+    /* ── QUEM ── */
+    .quem-wrap {
+      position: relative; overflow: hidden;
+      background: var(--s1);
+    }
+    .quem-wrap::before {
+      content: '';
+      position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+      background: radial-gradient(ellipse at 80% 50%, rgba(200,168,75,0.04) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .quem-inner { max-width: 1100px; margin: 0 auto; padding: 6rem 2.5rem; position: relative; }
+    .quem-grid { display: grid; grid-template-columns: auto 1fr; gap: 5rem; align-items: start; }
+    @media (max-width: 640px) { .quem-grid { grid-template-columns: 1fr; gap: 2rem; } }
+    .quem-sidebar { display: flex; flex-direction: column; align-items: center; gap: 1rem; }
+    .quem-avatar {
+      width: 72px; height: 72px; border-radius: 50%;
+      object-fit: cover; object-position: top center;
+      border: 1px solid var(--border-light); filter: grayscale(10%);
+      box-shadow: 0 0 24px rgba(200,168,75,0.08);
+    }
+    .quem-name { font-family: var(--ff-head); font-size: 0.85rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; text-align: center; }
+    .quem-role { font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); text-align: center; }
+    .quem-body h2 {
+      font-family: var(--ff-head); font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+      font-weight: 800; text-transform: uppercase; line-height: 1.05; margin-bottom: 2rem;
+    }
+    .quem-body p { font-size: 0.92rem; color: var(--muted2); line-height: 1.95; margin-bottom: 1.2rem; max-width: 560px; }
+    .quem-body p strong { color: var(--white); font-weight: 400; }
+
+    /* ── BRIEFING ── */
+    .briefing-wrap {
+      position: relative; overflow: hidden;
+      background: var(--s0);
+    }
+    .briefing-wrap::before {
+      content: '';
+      position: absolute; bottom: 0; right: 0;
+      width: 60vw; height: 60vh;
+      background: radial-gradient(ellipse at bottom right, rgba(200,168,75,0.04) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .briefing-inner { max-width: 1100px; margin: 0 auto; padding: 6rem 2.5rem; position: relative; }
+    .briefing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }
+    @media (max-width: 640px) { .briefing-grid { grid-template-columns: 1fr; gap: 2.5rem; } }
+    .briefing-left h2 {
+      font-family: var(--ff-head); font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 900; text-transform: uppercase; line-height: 1.05; margin-bottom: 1.5rem;
+    }
+    .briefing-left p { font-size: 0.88rem; color: var(--muted2); line-height: 1.9; max-width: 380px; }
+    .briefing-left p em { color: var(--white); font-style: normal; }
+    .briefing-form { display: flex; flex-direction: column; gap: 0; }
+    .form-step {
+      border: 1px solid var(--border); margin-bottom: -1px;
+      transition: border-color 0.25s, background 0.25s;
+      background: rgba(255,255,255,0.01);
+    }
+    .form-step:focus-within {
+      border-color: var(--gold); z-index: 1; position: relative;
+      background: rgba(200,168,75,0.02);
+    }
+    .form-step label {
+      display: block; padding: 0.9rem 1.2rem 0.2rem;
+      font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold);
+    }
+    .form-step input,
+    .form-step textarea,
+    .form-step select {
+      display: block; width: 100%;
+      background: transparent; border: none; outline: none;
+      color: var(--white); font-family: var(--ff-body); font-size: 0.9rem; font-weight: 300;
+      padding: 0.3rem 1.2rem 1rem; resize: none; -webkit-appearance: none;
+    }
+    .form-step select { cursor: pointer; }
+    .form-step select option { background: var(--s2); color: var(--white); }
+    .form-step textarea { min-height: 80px; line-height: 1.7; }
+    .form-btn {
+      margin-top: 1.5rem; display: block; width: 100%; padding: 1rem 2.4rem;
+      background: var(--gold); color: var(--s0);
+      font-family: var(--ff-head); font-size: 0.76rem; font-weight: 800;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      border: none; cursor: pointer; transition: background 0.2s, transform 0.2s;
+    }
+    .form-btn:hover { background: var(--white); transform: translateY(-1px); }
+    .form-sent { display: none; text-align: center; padding: 3rem 2rem; border: 1px solid var(--border); background: rgba(200,168,75,0.02); }
+    .form-sent.active { display: block; }
+    .form-sent-icon { font-size: 2rem; color: var(--gold); margin-bottom: 1rem; }
+    .form-sent h3 { font-family: var(--ff-head); font-size: 1.5rem; font-weight: 800; text-transform: uppercase; margin-bottom: 0.75rem; }
+    .form-sent p { font-size: 0.85rem; color: var(--muted2); line-height: 1.8; }
+
+    /* ── PARA QUEM ── */
+    .paraquem-wrap {
+      background: linear-gradient(180deg, var(--s2) 0%, var(--s1) 100%);
+      position: relative;
+    }
+    .paraquem-inner { max-width: 1100px; margin: 0 auto; padding: 6rem 2.5rem; }
+    .paraquem-inner h2 {
+      font-family: var(--ff-head); font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 900; text-transform: uppercase; line-height: 1.05; margin-bottom: 2.5rem;
+    }
+    .lista-fit { list-style: none; margin-bottom: 2.5rem; }
+    .lista-fit li {
+      padding: 1.3rem 0; border-bottom: 1px solid var(--border);
+      color: var(--muted2); font-size: 0.92rem;
+      display: flex; align-items: flex-start; gap: 1.2rem; line-height: 1.7;
+      transition: color 0.2s, padding-left 0.2s;
+    }
+    .lista-fit li:first-child { border-top: 1px solid var(--border); }
+    .lista-fit li:hover { color: var(--white); padding-left: 0.4rem; }
+    .lista-fit li::before { content: "→"; color: var(--gold); flex-shrink: 0; font-family: var(--ff-head); font-weight: 700; }
+    .nao-fit {
+      background: rgba(200,168,75,0.02); border: 1px solid var(--border);
+      border-left: 2px solid var(--gold); padding: 1.75rem 2rem;
+    }
+    .nao-fit p { font-size: 0.87rem; color: var(--muted2); line-height: 1.9; }
+    .nao-fit strong { color: var(--white); font-weight: 400; }
+
+    /* ── CTA FINAL ── */
+    .cta-wrap {
+      position: relative; overflow: hidden;
+      background: var(--s2);
+    }
+    .cta-wrap::before {
+      content: '';
+      position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+      width: 80vw; height: 80vh;
+      background: radial-gradient(ellipse at center, rgba(200,168,75,0.06) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .cta-inner { max-width: 1100px; margin: 0 auto; padding: 8rem 2.5rem; text-align: center; position: relative; }
+    .cta-inner h2 {
+      font-family: var(--ff-head); font-size: clamp(3.5rem, 9vw, 8rem);
+      font-weight: 900; text-transform: uppercase; line-height: 0.92; margin-bottom: 2rem;
+    }
+    .cta-inner h2 em { font-style: italic; color: var(--gold); display: block; }
+    .cta-inner p { font-size: 0.9rem; color: var(--muted2); margin-bottom: 3rem; line-height: 1.85; max-width: 380px; margin-left: auto; margin-right: auto; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--s0); border-top: 1px solid var(--border);
+      padding: 2rem 2.5rem;
+      display: flex; justify-content: space-between; align-items: center;
+      max-width: 1100px; margin: 0 auto;
+    }
+    @media (max-width: 500px) { footer { flex-direction: column; gap: 1rem; text-align: center; } }
+    footer p { font-size: 0.66rem; color: var(--muted); letter-spacing: 0.08em; }
+    footer a { font-size: 0.66rem; color: var(--gold); text-decoration: none; letter-spacing: 0.1em; }
+
+    /* ── REVEAL ── */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal-d1 { transition-delay: 0.1s; }
+    .reveal-d2 { transition-delay: 0.2s; }
+    .reveal-d3 { transition-delay: 0.3s; }
+  </style>
+</head>
+<body>
+
+<nav id="nav">
+  <a href="#" class="nav-logo">MV</a>
+  <a href="#briefing" class="nav-cta">Solicitar conversa</a>
+</nav>
+
+<section class="hero">
+  <div>
+    <p class="hero-tag">Estratégia de Marca · Rio de Janeiro</p>
+    <h1 class="hero-h1">
+      <span class="line">A maioria</span>
+      <span class="line">das marcas</span>
+      <span class="line">é invisível.</span>
+    </h1>
+    <p class="hero-frase">A evolução não anda com o medo. — Marcus Valério</p>
+    <a href="#briefing" class="btn-primary">Solicitar conversa</a>
+  </div>
+  <div class="hero-bottom">
+    <div class="hero-identity">
+      <img class="hero-avatar" src="data:image/jpeg;base64,''' + photo_b64 + '''" alt="Marcus Valério" />
+      <div class="hero-identity-text">
+        <strong>Marcus Valério</strong>
+        Brand Strategist
+      </div>
+    </div>
+    <div class="hero-cta-col">
+      <span class="hero-scroll-hint">↓ Role</span>
+    </div>
+  </div>
+</section>
+
+<div class="ticker-wrap">
+  <div class="ticker">
+    <span>Posicionamento</span><span class="dot">·</span>
+    <span>Narrativa de Marca</span><span class="dot">·</span>
+    <span>Identidade Estratégica</span><span class="dot">·</span>
+    <span>Tom de Voz</span><span class="dot">·</span>
+    <span>Diferenciação</span><span class="dot">·</span>
+    <span>Posicionamento</span><span class="dot">·</span>
+    <span>Narrativa de Marca</span><span class="dot">·</span>
+    <span>Identidade Estratégica</span><span class="dot">·</span>
+    <span>Tom de Voz</span><span class="dot">·</span>
+    <span>Diferenciação</span><span class="dot">·</span>
+    <span>Posicionamento</span><span class="dot">·</span>
+    <span>Narrativa de Marca</span><span class="dot">·</span>
+    <span>Identidade Estratégica</span><span class="dot">·</span>
+    <span>Tom de Voz</span><span class="dot">·</span>
+    <span>Diferenciação</span><span class="dot">·</span>
+  </div>
+</div>
+
+<div class="manifesto-wrap">
+  <div class="manifesto-inner reveal">
+    <p class="section-label">Manifesto</p>
+    <p class="manifesto-text">
+      Chega de médico com <span class="strike">stock photo de jaleco</span> sorrindo.<br/>
+      Chega de advogado com site de <span class="strike">modelo genérico</span>.<br/>
+      Você tem resultado. <em>Sua marca precisa ter também.</em>
+    </p>
+    <div class="manifesto-divider"></div>
+    <p class="manifesto-note">
+      O mercado está cheio de profissionais competentes sendo engolidos por marcas medíocres.
+      O problema não é o que você faz — é como o mercado te vê. E isso tem solução. Mas exige coragem.
+    </p>
+  </div>
+</div>
+
+<div class="frase-wrap reveal">
+  <div class="frase-inner">
+    <p class="frase-quote">A evolução não anda com o medo.</p>
+    <p class="frase-autor">Marcus Valério</p>
+  </div>
+</div>
+
+<div class="regras-wrap">
+  <div class="section">
+    <p class="section-label reveal">Como trabalho</p>
+    <div class="regras-grid">
+      <div class="regra reveal reveal-d1">
+        <div class="regra-num">01</div>
+        <h3>Diagnóstico antes de tudo</h3>
+        <p>Não começo a trabalhar sem entender onde você está e por que está lá. Sem diagnóstico, qualquer execução é chute.</p>
+      </div>
+      <div class="regra reveal reveal-d2">
+        <div class="regra-num">02</div>
+        <h3>Estratégia. Não tarefa.</h3>
+        <p>Não executo repetição. Entro para dar o norte, definir o posicionamento e vetar o que não serve. A execução é sua.</p>
+      </div>
+      <div class="regra reveal reveal-d3">
+        <div class="regra-num">03</div>
+        <h3>Você é avaliado também</h3>
+        <p>Antes de qualquer proposta, entendo se há fit real. Não aceito todo projeto — aceito os certos.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="naofaco-wrap">
+  <div class="naofaco-inner reveal">
+    <div class="naofaco-grid">
+      <div class="naofaco-left">
+        <p class="section-label">Ponto de vista</p>
+        <h2>O que eu <em>não faço</em><br/>e por quê.</h2>
+      </div>
+      <ul class="naofaco-list">
+        <li>Não faço logo, paleta de cor nem "identidade visual". Isso é consequência, não estratégia.</li>
+        <li>Não entro em projeto sem alinhamento real de expectativas. Tempo é o recurso mais escasso.</li>
+        <li>Não aceito cliente que quer validação em vez de verdade. Meu trabalho é o contrário disso.</li>
+        <li>Não trabalho com urgência criada pelo cliente. Marca boa não se constrói com pressa.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="quem-wrap">
+  <div class="quem-inner reveal">
+    <div class="quem-grid">
+      <div class="quem-sidebar">
+        <img class="quem-avatar" src="data:image/jpeg;base64,''' + photo_b64 + '''" alt="Marcus Valério" />
+        <div class="quem-name">Marcus Valério</div>
+        <div class="quem-role">Brand Strategist</div>
+      </div>
+      <div class="quem-body">
+        <p class="section-label">Quem faz</p>
+        <h2>Estratégia de marca<br/>sem rodeio.</h2>
+        <p>Trabalho com profissionais liberais que têm <strong>resultado real</strong> e precisam que o mercado veja isso. Médicos, advogados, arquitetos, consultores — pessoas que construíram uma carreira sólida mas ainda carregam uma marca aquém do que entregam.</p>
+        <p>Minha abordagem parte sempre da base: posicionamento, narrativa e identidade antes de qualquer execução visual ou plano de conteúdo. Não pulo etapas.</p>
+        <p>Base no Rio de Janeiro. <strong>Trabalho sem fronteira.</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="briefing-wrap" id="briefing">
+  <div class="briefing-inner">
+    <div class="briefing-grid">
+      <div class="briefing-left reveal">
+        <p class="section-label">Triagem</p>
+        <h2>Quatro perguntas.<br/>Sem enrolação.</h2>
+        <p>Antes de qualquer proposta, preciso entender seu caso. Responda com honestidade — <em>é isso que define se faz sentido conversarmos.</em></p>
+      </div>
+      <div class="reveal reveal-d1">
+        <form class="briefing-form" id="form">
+          <div class="form-step">
+            <label for="f-nome">Seu nome</label>
+            <input type="text" id="f-nome" placeholder="Como prefere ser chamado" required />
+          </div>
+          <div class="form-step">
+            <label for="f-profissao">Sua profissão / segmento</label>
+            <input type="text" id="f-profissao" placeholder="Ex: Urologista, Advogada, Arquiteto..." required />
+          </div>
+          <div class="form-step">
+            <label for="f-problema">Qual o maior problema da sua marca hoje?</label>
+            <textarea id="f-problema" placeholder="Seja direto. Não tem resposta certa." required></textarea>
+          </div>
+          <div class="form-step">
+            <label for="f-porquenow">Por que agora?</label>
+            <textarea id="f-porquenow" placeholder="O que mudou ou está mudando que te trouxe até aqui?" required></textarea>
+          </div>
+          <div class="form-step">
+            <label for="f-investimento">Investimento previsto</label>
+            <select id="f-investimento" required>
+              <option value="" disabled selected>Selecione uma faixa</option>
+              <option>R$ 2.000 – R$ 4.000</option>
+              <option>R$ 4.000 – R$ 8.000</option>
+              <option>Acima de R$ 8.000</option>
+              <option>Ainda não sei — quero entender primeiro</option>
+            </select>
+          </div>
+          <button type="submit" class="form-btn">Enviar e aguardar resposta →</button>
+        </form>
+        <div class="form-sent" id="form-sent">
+          <div class="form-sent-icon">✓</div>
+          <h3>Briefing recebido.</h3>
+          <p>Vou analisar com atenção e entrar em contato pessoalmente se houver fit. Fique de olho no WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="paraquem-wrap">
+  <div class="paraquem-inner reveal">
+    <p class="section-label">Para quem é</p>
+    <h2>Trabalho com quem já tem resultado<br/>e quer uma marca à altura disso.</h2>
+    <ul class="lista-fit">
+      <li>Profissional liberal com carreira sólida e presença digital aquém do que entrega</li>
+      <li>Quem quer atrair clientes melhores — não apenas mais clientes</li>
+      <li>Quem entende que posicionamento é investimento, não custo</li>
+      <li>Quem está disposto a ouvir o que precisa mudar, não só o que quer confirmar</li>
+    </ul>
+    <div class="nao-fit">
+      <p><strong>Se você está começando do zero</strong>, posso não ser a melhor escolha agora. Meu trabalho tem mais impacto quando há uma trajetória real para posicionar.</p>
+    </div>
+  </div>
+</div>
+
+<div class="cta-wrap">
+  <div class="cta-inner reveal">
+    <h2>Se faz sentido,<em>vamos conversar.</em></h2>
+    <p>Analiso cada caso antes de qualquer proposta. Se houver fit, responderei pessoalmente.</p>
+    <a href="https://wa.me/5521991458033?text=Ol%C3%A1%2C%20Marcus.%20Vi%20seu%20site%20e%20quero%20entender%20se%20faz%20sentido%20conversarmos." class="btn-primary" target="_blank" rel="noopener">Falar no WhatsApp →</a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Marcus Valério — Estratégia de Marca</p>
+  <a href="https://instagram.com/marcusvalerio" target="_blank" rel="noopener">Instagram</a>
+</footer>
+
+<script>
+  const nav = document.getElementById("nav");
+  window.addEventListener("scroll", () => {
+    nav.classList.toggle("scrolled", window.scrollY > 50);
+  }, { passive: true });
+
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("visible"); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.07 });
+  document.querySelectorAll(".reveal").forEach(el => obs.observe(el));
+
+  document.getElementById("form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    const nome        = document.getElementById("f-nome").value;
+    const profissao   = document.getElementById("f-profissao").value;
+    const problema    = document.getElementById("f-problema").value;
+    const porquenow   = document.getElementById("f-porquenow").value;
+    const investimento= document.getElementById("f-investimento").value;
+    const msg = encodeURIComponent(
+      "Olá, Marcus. Preenchi o briefing no seu site:\\n\\n" +
+      "Nome: " + nome + "\\n" +
+      "Profissão: " + profissao + "\\n\\n" +
+      "Maior problema da minha marca:\\n" + problema + "\\n\\n" +
+      "Por que agora:\\n" + porquenow + "\\n\\n" +
+      "Investimento previsto: " + investimento
+    );
+    window.open("https://wa.me/5521991458033?text=" + msg, "_blank");
+    this.style.display = "none";
+    document.getElementById("form-sent").classList.add("active");
+  });
+</script>
+</body>
+</html>
