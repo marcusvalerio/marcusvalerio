@@ -5,8 +5,6 @@
 **EN** · Product builder creating digital products for real-world workflows.  
 **PT** · Desenvolvo produtos digitais para transformar processos reais em sistemas úteis.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Professional%20profile-202124?style=flat-square&logo=linkedin&logoColor=C5D6EB)](https://www.linkedin.com/)
-[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-202124?style=flat-square&logo=minutemailer&logoColor=C5D6EB)](#contact)
 
 </div>
 
