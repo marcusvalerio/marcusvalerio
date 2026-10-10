@@ -1,40 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
   <title id="title">What if we just made it? — Marcus Valério</title>
-  <desc id="desc">A playful editorial composition where words shift, overlap and change scale, then resolve into Marcus Valério's name.</desc>
+  <desc id="desc">An energetic creative playground: oversized words slide, scale and rotate into a bold editorial composition, accented by a moving blue shape, before resolving into Marcus Valério's name.</desc>
   <rect width="1200" height="340" fill="#202124"/>
 
-  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="-5">
-    <text x="74" y="112" font-size="76" fill="#F5F4F0" opacity="0">
-      what if
-      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.08;.38;.52;1" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="x" values="34;74;74;74;34" keyTimes="0;.08;.38;.52;1" dur="8s" repeatCount="indefinite"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="800" letter-spacing="-7">
+    <text x="68" y="116" font-size="92" fill="#F5F4F0">
+      WHAT IF
+      <animateTransform attributeName="transform" type="translate" values="-360 0;0 0;0 0;0 0;360 0" keyTimes="0;.16;.56;.78;1" dur="6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" additive="sum" type="rotate" values="-4 280 90;0 280 90;0 280 90;0 280 90;4 280 90" keyTimes="0;.16;.56;.78;1" dur="6s" repeatCount="indefinite"/>
     </text>
 
-    <text x="70" y="202" font-size="76" fill="#C5D6EB" opacity="0">
-      we just made it?
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.1;.2;.4;.54;1" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="x" values="145;145;70;70;70;145" keyTimes="0;.1;.2;.4;.54;1" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="font-size" values="58;58;76;76;58;58" keyTimes="0;.1;.2;.4;.54;1" dur="8s" repeatCount="indefinite"/>
+    <text x="64" y="220" font-size="88" fill="#C5D6EB">
+      WE JUST
+      <animateTransform attributeName="transform" type="translate" values="420 0;420 0;0 0;0 0;-420 0" keyTimes="0;.12;.28;.7;1" dur="6s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="640" y="220" font-size="88" fill="#F5F4F0">
+      MADE IT?
+      <animateTransform attributeName="transform" type="translate" values="0 130;0 130;0 0;0 0;0 -130" keyTimes="0;.2;.36;.7;1" dur="6s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" additive="sum" type="rotate" values="5 850 190;5 850 190;0 850 190;0 850 190;-5 850 190" keyTimes="0;.2;.36;.7;1" dur="6s" repeatCount="indefinite"/>
     </text>
   </g>
 
-  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="-4" opacity="0">
-    <text x="675" y="118" font-size="92" fill="#C5D6EB">MAKE</text>
-    <text x="820" y="205" font-size="92" fill="#F5F4F0">IT.</text>
-    <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.35;.4;.53;.74;1" dur="8s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="36 0;36 0;0 0;0 0;-12 0" keyTimes="0;.35;.53;.74;1" dur="8s" repeatCount="indefinite" additive="sum"/>
+  <g transform="translate(1030 70)">
+    <rect x="-18" y="-18" width="36" height="36" fill="#C5D6EB">
+      <animateTransform attributeName="transform" type="rotate" values="0;0;135;225;360" keyTimes="0;.2;.42;.68;1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="0;0;18;18;0" keyTimes="0;.2;.42;.68;1" dur="6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;-20 10;-50 20;-10 0;0 0" keyTimes="0;.2;.42;.68;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
-  <g fill="none" stroke="#C5D6EB" stroke-width="2" stroke-linecap="square" opacity="0">
-    <path d="M72 232 H390 M410 232 H520">
-      <animate attributeName="stroke-dasharray" values="0 600;0 600;600 0;600 0;0 600" keyTimes="0;.3;.48;.75;1" dur="8s" repeatCount="indefinite"/>
-    </path>
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.28;.4;.75;1" dur="8s" repeatCount="indefinite"/>
-  </g>
+  <path d="M70 246 H1130" stroke="#C5D6EB" stroke-width="2" stroke-dasharray="1060" stroke-dashoffset="1060" opacity=".8">
+    <animate attributeName="stroke-dashoffset" values="1060;1060;0;0;1060" keyTimes="0;.28;.48;.78;1" dur="6s" repeatCount="indefinite"/>
+  </path>
 
   <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.64;.76;.88;1" dur="8s" repeatCount="indefinite"/>
-    <text x="72" y="294" fill="#F5F4F0" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="-1.5">MARCUS VALÉRIO<tspan fill="#C5D6EB">.</tspan></text>
-    <text x="1128" y="292" text-anchor="end" fill="#C5D6EB" font-family="monospace" font-size="12" letter-spacing="2">IDEAS → FORM</text>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.62;.76;.86;1" dur="6s" repeatCount="indefinite"/>
+    <text x="70" y="302" fill="#F5F4F0" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="800" letter-spacing="-1.5">MARCUS VALÉRIO<tspan fill="#C5D6EB">.</tspan></text>
+    <text x="1130" y="300" text-anchor="end" fill="#C5D6EB" font-family="monospace" font-size="13" letter-spacing="2">IDEAS IN MOTION</text>
   </g>
 </svg>
