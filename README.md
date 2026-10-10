@@ -1,42 +1,142 @@
-# Marcus Valério
+<div align="center">
 
-**Product builder · Software engineering · Digital systems**  
-Rio de Janeiro, Brazil
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0B,45:1A1A1C,100:424769&height=210&section=header&text=MARCUS%20VAL%C3%89RIO&fontSize=38&fontColor=F2F0EB&fontAlignY=36&animation=fadeIn&desc=PRODUCT%20BUILDER%20%E2%80%A2%20SOFTWARE%20%E2%80%A2%20SYSTEMS&descAlignY=57&descSize=13" width="100%" alt="Marcus Valério — Product Builder, Software and Systems" />
 
-I design and build software around real-world workflows — from operational tools and logistics planning to urban mobility and personal digital experiences. My focus is turning complex processes into clear, useful products with thoughtful interfaces.
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=17&duration=3000&pause=900&color=9CA3AF&center=true&vCenter=true&width=680&lines=Turning+complex+workflows+into+useful+products;Building+software+for+real-world+problems;Product+thinking+%C2%B7+Systems+thinking+%C2%B7+Interface+craft" alt="Animated introduction" />
 
-## Selected work
+<br />
 
-### [CÓRTEX.OS](https://github.com/marcusvalerio/fade.os) · Barbershop management
-A management product for barbershops, designed to bring day-to-day operations into one place.  
-[Live demo](https://fadeos-five.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-marcusvalerio-17181C?style=flat-square&logo=github&logoColor=F2F0EB)](https://github.com/marcusvalerio)
+![Focus](https://img.shields.io/badge/FOCUS-Product%20%26%20Engineering-424769?style=flat-square)
+![Location](https://img.shields.io/badge/BASED%20IN-Rio%20de%20Janeiro-1A1A1C?style=flat-square)
 
-### [ARGUS.LLP](https://github.com/marcusvalerio/FLUXOCIT.LLP) · Logistics layout planning
-A 2D planning tool for designing logistics spaces at real scale, arranging areas, racks, pallets, aisles, docks and equipment, alongside process-flow planning.
-
-### [MONITORA.FLOW](https://github.com/marcusvalerio/monitora.flow) · Urban mobility
-A Rio de Janeiro mobility project that brings together bus and BRT GPS data, rainfall and weather information in a mobile-first experience.  
-[Live demo](https://monitora-flow.vercel.app)
-
-### [SENTINEL](https://github.com/marcusvalerio/SENTINEL) · Project operations
-A workspace for preserving project context: decisions, milestones, events, ideas and progress, with a timeline designed to keep work understandable over time.  
-[Live demo](https://sentinel-ashy-alpha.vercel.app)
-
-### [ALTAR](https://github.com/marcusvalerio/Altar) · Reflective digital experience
-A mobile-first devotional PWA for Spiritist reading and reflection, designed for quiet, focused use and offline access.  
-[Live demo](https://altar-teal.vercel.app)
-
-## How I work
-
-- **Product thinking:** start with the problem and the people using the product.
-- **Systems thinking:** model workflows, constraints and information before adding complexity.
-- **Interface craft:** favor clarity, consistency and purposeful interaction.
-- **Practical engineering:** build, test and refine working software instead of stopping at concepts.
-
-## Technology
-
-React · Next.js · TypeScript · PostgreSQL · Supabase · Neon · Vercel
+</div>
 
 ---
 
-*Five independent projects, each exploring a different real-world problem.*
+## Selected work
+
+Five independent projects. Five different problems. One approach: understand the workflow, design the system, build the product.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [CÓRTEX.OS ↗](https://github.com/marcusvalerio/fade.os)
+
+**Barbershop management**
+
+A management product focused on bringing the day-to-day operation of a barbershop into one place.
+
+[Open live demo →](https://fadeos-five.vercel.app)
+
+</td>
+<td width="50%" valign="top">
+
+### [ARGUS.LLP ↗](https://github.com/marcusvalerio/FLUXOCIT.LLP)
+
+**Logistics layout planning**
+
+A 2D workspace for planning logistics spaces at real scale — areas, racks, pallets, aisles, docks and equipment — connected to process-flow planning.
+
+[Explore repository →](https://github.com/marcusvalerio/FLUXOCIT.LLP)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [MONITORA.FLOW ↗](https://github.com/marcusvalerio/monitora.flow)
+
+**Urban mobility**
+
+A mobile-first Rio de Janeiro project combining bus and BRT GPS data with rainfall and weather information.
+
+[Open live demo →](https://monitora-flow.vercel.app)
+
+</td>
+<td width="50%" valign="top">
+
+### [SENTINEL ↗](https://github.com/marcusvalerio/SENTINEL)
+
+**Project operations & memory**
+
+A workspace for project context: decisions, milestones, events, ideas and progress, organized into a timeline.
+
+[Open live demo →](https://sentinel-ashy-alpha.vercel.app)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### [ALTAR ↗](https://github.com/marcusvalerio/Altar)
+
+**A quiet space for reflection**
+
+A mobile-first devotional PWA for Spiritist reading and reflection, designed for focused use and offline access.
+
+[Open live demo →](https://altar-teal.vercel.app)
+
+</td>
+</tr>
+</table>
+
+---
+
+## Approach
+
+<table>
+<tr>
+<td width="25%" valign="top">
+
+**01 · Understand**
+
+Start with the real problem, constraints and people involved.
+
+</td>
+<td width="25%" valign="top">
+
+**02 · Structure**
+
+Map workflows, information and system behavior before adding complexity.
+
+</td>
+<td width="25%" valign="top">
+
+**03 · Build**
+
+Turn the model into working software with deliberate interface decisions.
+
+</td>
+<td width="25%" valign="top">
+
+**04 · Refine**
+
+Test, observe, improve and make the product more coherent over time.
+
+</td>
+</tr>
+</table>
+
+## Technology
+
+<div align="center">
+
+![React](https://img.shields.io/badge/React-17181C?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-17181C?style=flat-square&logo=nextdotjs&logoColor=F2F0EB)
+![TypeScript](https://img.shields.io/badge/TypeScript-17181C?style=flat-square&logo=typescript&logoColor=3178C6)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17181C?style=flat-square&logo=postgresql&logoColor=4169E1)
+![Supabase](https://img.shields.io/badge/Supabase-17181C?style=flat-square&logo=supabase&logoColor=3FCF8E)
+![Neon](https://img.shields.io/badge/Neon-17181C?style=flat-square&logo=neon&logoColor=00E599)
+![Vercel](https://img.shields.io/badge/Vercel-17181C?style=flat-square&logo=vercel&logoColor=F2F0EB)
+
+</div>
+
+<div align="center">
+
+<sub>Independent products · Practical engineering · Thoughtful design</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:424769,55:1A1A1C,100:0A0A0B&height=90&section=footer" width="100%" alt="" />
+
+</div>
