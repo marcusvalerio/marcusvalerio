@@ -1,22 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0B,45:1A1A1C,100:424769&height=210&section=header&text=MARCUS%20VAL%C3%89RIO&fontSize=38&fontColor=F2F0EB&fontAlignY=36&animation=fadeIn&desc=PRODUCT%20BUILDER%20%E2%80%A2%20SOFTWARE%20%E2%80%A2%20SYSTEMS&descAlignY=57&descSize=13" width="100%" alt="Marcus Valério — Product Builder, Software and Systems" />
+<img src="./assets/dot-motion.svg" width="100%" alt="Marcus Valério — The Dot, an animated personal identity" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=17&duration=3000&pause=900&color=9CA3AF&center=true&vCenter=true&width=680&lines=Turning+complex+workflows+into+useful+products;Building+software+for+real-world+problems;Product+thinking+%C2%B7+Systems+thinking+%C2%B7+Interface+craft" alt="Animated introduction" />
+**EN** · Product builder creating digital products for real-world workflows.  
+**PT** · Desenvolvo produtos digitais para transformar processos reais em sistemas úteis.
 
-<br />
-
-[![GitHub](https://img.shields.io/badge/GitHub-marcusvalerio-17181C?style=flat-square&logo=github&logoColor=F2F0EB)](https://github.com/marcusvalerio)
-![Focus](https://img.shields.io/badge/FOCUS-Product%20%26%20Engineering-424769?style=flat-square)
-![Location](https://img.shields.io/badge/BASED%20IN-Rio%20de%20Janeiro-1A1A1C?style=flat-square)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Professional%20profile-202124?style=flat-square&logo=linkedin&logoColor=C5D6EB)](https://www.linkedin.com/)
+[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-202124?style=flat-square&logo=minutemailer&logoColor=C5D6EB)](#contact)
 
 </div>
 
 ---
 
-## Selected work
-
-Five independent projects. Five different problems. One approach: understand the workflow, design the system, build the product.
+## Selected work / Projetos em destaque
 
 <table>
 <tr>
@@ -24,22 +20,20 @@ Five independent projects. Five different problems. One approach: understand the
 
 ### [CÓRTEX.OS ↗](https://github.com/marcusvalerio/fade.os)
 
-**Barbershop management**
+**EN** · Barbershop management.  
+**PT** · Gestão para barbearias.
 
-A management product focused on bringing the day-to-day operation of a barbershop into one place.
-
-[Open live demo →](https://fadeos-five.vercel.app)
+[Live demo](https://fadeos-five.vercel.app) · [Source](https://github.com/marcusvalerio/fade.os)
 
 </td>
 <td width="50%" valign="top">
 
 ### [ARGUS.LLP ↗](https://github.com/marcusvalerio/FLUXOCIT.LLP)
 
-**Logistics layout planning**
+**EN** · 2D logistics layout planning and process-flow design.  
+**PT** · Planejamento 2D de layouts logísticos e fluxos de processos.
 
-A 2D workspace for planning logistics spaces at real scale — areas, racks, pallets, aisles, docks and equipment — connected to process-flow planning.
-
-[Explore repository →](https://github.com/marcusvalerio/FLUXOCIT.LLP)
+[Source code](https://github.com/marcusvalerio/FLUXOCIT.LLP)
 
 </td>
 </tr>
@@ -48,22 +42,20 @@ A 2D workspace for planning logistics spaces at real scale — areas, racks, pal
 
 ### [MONITORA.FLOW ↗](https://github.com/marcusvalerio/monitora.flow)
 
-**Urban mobility**
+**EN** · Urban mobility, bus/BRT GPS, rainfall and weather data.  
+**PT** · Mobilidade urbana, GPS de ônibus/BRT, chuva e clima.
 
-A mobile-first Rio de Janeiro project combining bus and BRT GPS data with rainfall and weather information.
-
-[Open live demo →](https://monitora-flow.vercel.app)
+[Live demo](https://monitora-flow.vercel.app) · [Source](https://github.com/marcusvalerio/monitora.flow)
 
 </td>
 <td width="50%" valign="top">
 
 ### [SENTINEL ↗](https://github.com/marcusvalerio/SENTINEL)
 
-**Project operations & memory**
+**EN** · Project context, decisions, milestones and progress.  
+**PT** · Contexto de projetos, decisões, marcos e progresso.
 
-A workspace for project context: decisions, milestones, events, ideas and progress, organized into a timeline.
-
-[Open live demo →](https://sentinel-ashy-alpha.vercel.app)
+[Live demo](https://sentinel-ashy-alpha.vercel.app) · [Source](https://github.com/marcusvalerio/SENTINEL)
 
 </td>
 </tr>
@@ -72,11 +64,10 @@ A workspace for project context: decisions, milestones, events, ideas and progre
 
 ### [ALTAR ↗](https://github.com/marcusvalerio/Altar)
 
-**A quiet space for reflection**
+**EN** · A mobile-first Spiritist devotional PWA for reading and reflection.  
+**PT** · PWA devocional espírita, mobile-first, para leitura e reflexão.
 
-A mobile-first devotional PWA for Spiritist reading and reflection, designed for focused use and offline access.
-
-[Open live demo →](https://altar-teal.vercel.app)
+[Live demo](https://altar-teal.vercel.app) · [Source](https://github.com/marcusvalerio/Altar)
 
 </td>
 </tr>
@@ -84,59 +75,30 @@ A mobile-first devotional PWA for Spiritist reading and reflection, designed for
 
 ---
 
-## Approach
+## Approach / Abordagem
 
-<table>
-<tr>
-<td width="25%" valign="top">
-
-**01 · Understand**
-
-Start with the real problem, constraints and people involved.
-
-</td>
-<td width="25%" valign="top">
-
-**02 · Structure**
-
-Map workflows, information and system behavior before adding complexity.
-
-</td>
-<td width="25%" valign="top">
-
-**03 · Build**
-
-Turn the model into working software with deliberate interface decisions.
-
-</td>
-<td width="25%" valign="top">
-
-**04 · Refine**
-
-Test, observe, improve and make the product more coherent over time.
-
-</td>
-</tr>
-</table>
+| EN | PT |
+|:--|:--|
+| **Product thinking** — start with the real problem. | **Pensamento de produto** — começar pelo problema real. |
+| **Systems thinking** — understand workflows and constraints. | **Pensamento sistêmico** — compreender fluxos e restrições. |
+| **Build & refine** — turn ideas into working software. | **Construir e refinar** — transformar ideias em software funcional. |
 
 ## Technology
 
-<div align="center">
+![React](https://img.shields.io/badge/React-202124?style=flat-square&logo=react&logoColor=C5D6EB)
+![Next.js](https://img.shields.io/badge/Next.js-202124?style=flat-square&logo=nextdotjs&logoColor=F5F4F0)
+![TypeScript](https://img.shields.io/badge/TypeScript-202124?style=flat-square&logo=typescript&logoColor=C5D6EB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-202124?style=flat-square&logo=postgresql&logoColor=C5D6EB)
+![Vercel](https://img.shields.io/badge/Vercel-202124?style=flat-square&logo=vercel&logoColor=F5F4F0)
 
-![React](https://img.shields.io/badge/React-17181C?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-17181C?style=flat-square&logo=nextdotjs&logoColor=F2F0EB)
-![TypeScript](https://img.shields.io/badge/TypeScript-17181C?style=flat-square&logo=typescript&logoColor=3178C6)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17181C?style=flat-square&logo=postgresql&logoColor=4169E1)
-![Supabase](https://img.shields.io/badge/Supabase-17181C?style=flat-square&logo=supabase&logoColor=3FCF8E)
-![Neon](https://img.shields.io/badge/Neon-17181C?style=flat-square&logo=neon&logoColor=00E599)
-![Vercel](https://img.shields.io/badge/Vercel-17181C?style=flat-square&logo=vercel&logoColor=F2F0EB)
-
-</div>
+---
 
 <div align="center">
 
-<sub>Independent products · Practical engineering · Thoughtful design</sub>
+<a id="contact"></a>
+**MARCUS VALÉRIO.**  
+Build. Learn. Improve.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:424769,55:1A1A1C,100:0A0A0B&height=90&section=footer" width="100%" alt="" />
+<sub>Fluid Blue · Off-white · Charcoal</sub>
 
 </div>
