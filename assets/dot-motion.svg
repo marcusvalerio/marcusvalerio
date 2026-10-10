@@ -1,42 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">What if we just made it? — Marcus Valério</title>
-  <desc id="desc">An energetic creative playground: oversized words slide, scale and rotate into a bold editorial composition, accented by a moving blue shape, before resolving into Marcus Valério's name.</desc>
+  <title id="title">Marcus Valério — Creative Playground</title>
+  <desc id="desc">Marcus Valério stays visible while a powder-blue square ricochets across the canvas. On reaching the end, it triggers the phrase What if we just made it? to light up.</desc>
+  <defs>
+    <filter id="blue-glow" x="-30%" y="-50%" width="160%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft-glow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
   <rect width="1200" height="340" fill="#202124"/>
 
-  <g font-family="Arial, Helvetica, sans-serif" font-weight="800" letter-spacing="-7">
-    <text x="68" y="116" font-size="92" fill="#F5F4F0">
-      WHAT IF
-      <animateTransform attributeName="transform" type="translate" values="-360 0;0 0;0 0;0 0;360 0" keyTimes="0;.16;.56;.78;1" dur="6s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" additive="sum" type="rotate" values="-4 280 90;0 280 90;0 280 90;0 280 90;4 280 90" keyTimes="0;.16;.56;.78;1" dur="6s" repeatCount="indefinite"/>
-    </text>
+  <text x="70" y="72" fill="#F5F4F0" opacity=".88" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="-1">MARCUS VALÉRIO<tspan fill="#C5D6EB">.</tspan></text>
 
-    <text x="64" y="220" font-size="88" fill="#C5D6EB">
-      WE JUST
-      <animateTransform attributeName="transform" type="translate" values="420 0;420 0;0 0;0 0;-420 0" keyTimes="0;.12;.28;.7;1" dur="6s" repeatCount="indefinite"/>
-    </text>
+  <path d="M76 112 H1124" stroke="#F5F4F0" stroke-opacity=".16" stroke-width="1"/>
+  <path d="M76 112 H1124" stroke="#C5D6EB" stroke-opacity=".48" stroke-width="1" stroke-dasharray="2 12"/>
 
-    <text x="640" y="220" font-size="88" fill="#F5F4F0">
-      MADE IT?
-      <animateTransform attributeName="transform" type="translate" values="0 130;0 130;0 0;0 0;0 -130" keyTimes="0;.2;.36;.7;1" dur="6s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" additive="sum" type="rotate" values="5 850 190;5 850 190;0 850 190;0 850 190;-5 850 190" keyTimes="0;.2;.36;.7;1" dur="6s" repeatCount="indefinite"/>
-    </text>
+  <rect x="66" y="102" width="20" height="20" rx="1" fill="#C5D6EB">
+    <animate attributeName="x" values="66;190;410;650;890;1104;890;650;410;190;66" keyTimes="0;.1;.2;.3;.4;.5;.6;.7;.8;.9;1" dur="5.6s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" values="0 76 112;90 200 112;180 420 112;270 660 112;360 900 112;450 1114 112;540 900 112;630 660 112;720 420 112;810 200 112;900 76 112" dur="5.6s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="20;20;25;20;20;30;20;20;25;20;20" dur="5.6s" repeatCount="indefinite"/>
+    <animate attributeName="height" values="20;20;25;20;20;30;20;20;25;20;20" dur="5.6s" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="800" letter-spacing="-5">
+    <text x="70" y="202" fill="#F5F4F0" font-size="77" opacity=".2">what if</text>
+    <text x="70" y="276" fill="#C5D6EB" font-size="77" opacity=".2">we just made it?</text>
+    <g filter="url(#blue-glow)" opacity="0">
+      <text x="70" y="202" fill="#F5F4F0" font-size="77">what if</text>
+      <text x="70" y="276" fill="#C5D6EB" font-size="77">we just made it?</text>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.42;.48;.7;.78;1" dur="5.6s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0">
+      <text x="70" y="202" fill="#F5F4F0" font-size="77" filter="url(#soft-glow)">what if</text>
+      <text x="70" y="276" fill="#C5D6EB" font-size="77" filter="url(#soft-glow)">we just made it?</text>
+      <animate attributeName="opacity" values="0;0;.8;0;0" keyTimes="0;.44;.49;.54;1" dur="5.6s" repeatCount="indefinite"/>
+    </g>
   </g>
 
-  <g transform="translate(1030 70)">
-    <rect x="-18" y="-18" width="36" height="36" fill="#C5D6EB">
-      <animateTransform attributeName="transform" type="rotate" values="0;0;135;225;360" keyTimes="0;.2;.42;.68;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="rx" values="0;0;18;18;0" keyTimes="0;.2;.42;.68;1" dur="6s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;-20 10;-50 20;-10 0;0 0" keyTimes="0;.2;.42;.68;1" dur="6s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <path d="M70 246 H1130" stroke="#C5D6EB" stroke-width="2" stroke-dasharray="1060" stroke-dashoffset="1060" opacity=".8">
-    <animate attributeName="stroke-dashoffset" values="1060;1060;0;0;1060" keyTimes="0;.28;.48;.78;1" dur="6s" repeatCount="indefinite"/>
-  </path>
-
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.62;.76;.86;1" dur="6s" repeatCount="indefinite"/>
-    <text x="70" y="302" fill="#F5F4F0" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="800" letter-spacing="-1.5">MARCUS VALÉRIO<tspan fill="#C5D6EB">.</tspan></text>
-    <text x="1130" y="300" text-anchor="end" fill="#C5D6EB" font-family="monospace" font-size="13" letter-spacing="2">IDEAS IN MOTION</text>
-  </g>
+  <path d="M70 300 H1130" stroke="#F5F4F0" stroke-opacity=".16" stroke-width="1"/>
+  <text x="70" y="323" fill="#F5F4F0" opacity=".6" font-family="monospace" font-size="11" letter-spacing="2">THINK / MAKE / REPEAT</text>
+  <text x="1130" y="323" text-anchor="end" fill="#C5D6EB" opacity=".85" font-family="monospace" font-size="11" letter-spacing="2">IDEAS IN MOTION</text>
 </svg>
