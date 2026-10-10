@@ -72,12 +72,10 @@
 </td>
 <td width="50%" valign="top">
 
-### [SENTINEL ↗](https://github.com/marcusvalerio/SENTINEL)
+### AstraRP
 
-**EN** · Project context, decisions, milestones and progress.  
-**PT** · Contexto de projetos, decisões, marcos e progresso.
-
-[Live demo](https://sentinel-ashy-alpha.vercel.app) · [Source](https://github.com/marcusvalerio/SENTINEL)
+**EN** · A creative project currently being prepared for its live preview.  
+**PT** · Um projeto criativo em preparação para seu preview público.
 
 </td>
 </tr>
@@ -122,6 +120,6 @@
 **MARCUS VALÉRIO.**  
 Build. Learn. Improve.
 
-<sub>Fluid Blue · Off-white · Charcoal</sub>
+
 
 </div>
