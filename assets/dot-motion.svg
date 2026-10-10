@@ -1,23 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">Marcus Valério. Ideas in motion.</title>
-  <desc id="desc">A playful editorial animation where a small blue dot bounces across a charcoal canvas, hits a mark, and reveals the name Marcus Valério.</desc>
+  <title id="title">What if we just made it? — Marcus Valério</title>
+  <desc id="desc">A typography-led motion piece. The question arrives in oversized editorial type, a powder-blue dot moves through the composition, and Marcus Valério is revealed.</desc>
   <rect width="1200" height="340" fill="#202124"/>
-  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="-2">
-    <text x="70" y="110" fill="#F5F4F0" font-size="36">what if</text>
-    <text x="70" y="148" fill="#C5D6EB" font-size="36">we just made it?</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="-5">
+    <text x="70" y="126" fill="#F5F4F0" font-size="83" opacity="0">
+      what if
+      <animate attributeName="opacity" values="0;1;1;1" keyTimes="0;.12;.88;1" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="42;70;70;70" keyTimes="0;.12;.88;1" dur="7s" repeatCount="indefinite"/>
+    </text>
+    <text x="70" y="216" fill="#C5D6EB" font-size="83" opacity="0">
+      we just made it?
+      <animate attributeName="opacity" values="0;0;1;1;1" keyTimes="0;.08;.22;.88;1" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="98;98;70;70;70" keyTimes="0;.08;.22;.88;1" dur="7s" repeatCount="indefinite"/>
+    </text>
   </g>
-  <g fill="#C5D6EB"><rect x="360" y="92" width="12" height="12" transform="rotate(17 366 98)"/><path d="M905 84l11 11-11 11-11-11z"/><circle cx="1040" cy="236" r="3"/></g>
-  <g fill="none" stroke="#C5D6EB" stroke-width="1.5"><path d="M72 190H1128" stroke-opacity=".34"/><path d="M600 158v64M568 190h64" stroke-opacity=".7"/></g>
-  <circle cx="95" cy="190" r="7" fill="#C5D6EB">
-    <animate attributeName="cx" values="95;205;325;450;600;600;600;600" keyTimes="0;.13;.29;.45;.59;.68;.9;1" dur="6.2s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="190;153;218;155;190;190;190;190" keyTimes="0;.13;.29;.45;.59;.68;.9;1" dur="6.2s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="7;7;7;7;13;5;5;7" keyTimes="0;.13;.29;.45;.59;.68;.9;1" dur="6.2s" repeatCount="indefinite"/>
+
+  <circle cx="1070" cy="201" r="7" fill="#C5D6EB">
+    <animate attributeName="cx" values="1070;1060;1010;930;850;850;1070" keyTimes="0;.16;.27;.38;.5;.76;1" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="201;201;180;230;201;201;201" keyTimes="0;.16;.27;.38;.5;.76;1" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="7;7;10;6;7;7;7" keyTimes="0;.16;.27;.38;.5;.76;1" dur="7s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="600" cy="190" r="13" fill="none" stroke="#C5D6EB" opacity="0"><animate attributeName="opacity" values="0;0;0;0;.9;0;0;0" keyTimes="0;.13;.29;.45;.59;.68;.9;1" dur="6.2s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;6;6;13;42;42;6" keyTimes="0;.13;.29;.45;.59;.68;.9;1" dur="6.2s" repeatCount="indefinite"/></circle>
-  <g opacity="0"><animate attributeName="opacity" values="0;0;0;0;1;1;1;1" keyTimes="0;.13;.29;.45;.59;.68;.9;1" dur="6.2s" repeatCount="indefinite"/>
-    <text x="650" y="184" fill="#F5F4F0" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="700" letter-spacing="-1.8">MARCUS VALÉRIO<tspan fill="#C5D6EB">.</tspan></text>
-    <text x="653" y="214" fill="#C5D6EB" font-family="monospace" font-size="11" letter-spacing="2.4">STRATEGY / CREATIVE / BUILD</text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.46;.57;.83;1" dur="7s" repeatCount="indefinite"/>
+    <text x="72" y="288" fill="#F5F4F0" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" letter-spacing="-1">MARCUS VALÉRIO<tspan fill="#C5D6EB">.</tspan></text>
+    <path d="M72 302H1128" stroke="#C5D6EB" stroke-width="1" stroke-opacity=".55"/>
   </g>
-  <g font-family="monospace" font-size="10" letter-spacing="1.5"><text x="72" y="270" fill="#F5F4F0" fill-opacity=".75">THINK</text><text x="145" y="270" fill="#C5D6EB">+</text><text x="170" y="270" fill="#F5F4F0" fill-opacity=".75">MAKE</text><text x="245" y="270" fill="#C5D6EB">+</text><text x="270" y="270" fill="#F5F4F0" fill-opacity=".75">BREAK THINGS</text></g>
-  <text x="1158" y="270" text-anchor="end" fill="#F5F4F0" fill-opacity=".5" font-family="monospace" font-size="10" letter-spacing="1.5">REPEAT UNTIL IT WORKS.</text>
 </svg>
