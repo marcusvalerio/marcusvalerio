@@ -1,48 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
   <title id="title">Marcus Valério — ideas in motion</title>
-  <desc id="desc">An editorial motion study: a blue dot travels, hits a mark, and the name appears. Inspired by simplicity, creative experimentation, and industrial design.</desc>
+  <desc id="desc">A playful editorial motion graphic. A blue dot bounces, hits a mark, and reveals Marcus Valério.</desc>
   <rect width="1200" height="340" fill="#202124"/>
-  <g stroke="#F5F4F0" stroke-opacity=".12" fill="none">
-    <path d="M40 42H1160M40 298H1160"/>
-    <path d="M40 42v12M1160 42v12M40 286v12M1160 286v12"/>
-    <path d="M600 42V298" stroke-dasharray="2 8"/>
+  <g stroke="#F5F4F0" stroke-opacity=".15" fill="none"><path d="M38 42H1162M38 298H1162"/><path d="M38 42v12M1162 42v12M38 286v12M1162 286v12"/></g>
+  <g fill="#F5F4F0" font-family="monospace" font-size="11" letter-spacing="2"><text x="42" y="28">PERSONAL PLAYGROUND / 001</text><text x="1158" y="28" text-anchor="end">IDEAS ARE CHEAP. MAKE THEM REAL.</text></g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="34" letter-spacing="-1.2" fill="#F5F4F0">
+    <text x="72" y="112">think</text><text x="72" y="148" fill="#C5D6EB">different.</text>
   </g>
-  <g fill="#F5F4F0" font-family="monospace" font-size="11" letter-spacing="2">
-    <text x="42" y="28">PERSONAL IDENTITY / 001</text>
-    <text x="1158" y="28" text-anchor="end">THINK DIFFERENT. MAKE SOMETHING.</text>
-  </g>
-  <g transform="translate(70 76)">
-    <rect width="185" height="30" rx="15" fill="#C5D6EB"/>
-    <text x="92.5" y="19.5" text-anchor="middle" fill="#202124" font-family="monospace" font-size="10" letter-spacing="1.5">IDEAS IN PROGRESS</text>
-  </g>
-  <g fill="none" stroke="#C5D6EB" stroke-width="1.5">
-    <path d="M80 178H1120" stroke-opacity=".28"/>
-    <path d="M600 148v60M570 178h60" stroke-opacity=".5"/>
-  </g>
-  <g fill="#C5D6EB" opacity=".55">
-    <circle cx="160" cy="135" r="2"/><circle cx="290" cy="240" r="2"/><circle cx="925" cy="130" r="2"/><circle cx="1040" cy="238" r="2"/>
-    <rect x="105" y="226" width="10" height="10"/><rect x="1080" y="126" width="10" height="10"/>
-  </g>
-  <circle cx="90" cy="178" r="7" fill="#C5D6EB">
-    <animate attributeName="cx" values="90;230;350;480;600;600;600;600" keyTimes="0;.16;.32;.48;.60;.68;.9;1" dur="6.4s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="178;144;208;146;178;178;178;178" keyTimes="0;.16;.32;.48;.60;.68;.9;1" dur="6.4s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="7;7;7;7;13;5;5;7" keyTimes="0;.16;.32;.48;.60;.68;.9;1" dur="6.4s" repeatCount="indefinite"/>
+  <g fill="none" stroke="#C5D6EB" stroke-width="1.5"><path d="M75 178H1125" stroke-opacity=".35"/><path d="M600 148v60M570 178h60" stroke-opacity=".65"/></g>
+  <g fill="#C5D6EB" opacity=".7"><rect x="290" y="86" width="12" height="12" transform="rotate(17 296 92)"/><circle cx="395" cy="242" r="3"/><path d="M850 76l10 10-10 10-10-10z"/><rect x="1015" y="235" width="9" height="9"/></g>
+  <circle cx="110" cy="178" r="7" fill="#C5D6EB">
+    <animate attributeName="cx" values="110;225;315;440;600;600;600;600" keyTimes="0;.14;.28;.44;.60;.68;.9;1" dur="6.2s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="178;146;210;144;178;178;178;178" keyTimes="0;.14;.28;.44;.60;.68;.9;1" dur="6.2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="7;7;7;7;13;5;5;7" keyTimes="0;.14;.28;.44;.60;.68;.9;1" dur="6.2s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="600" cy="178" r="14" fill="none" stroke="#C5D6EB" opacity="0">
-    <animate attributeName="opacity" values="0;0;0;0;.8;0;0;0" keyTimes="0;.16;.32;.48;.60;.68;.9;1" dur="6.4s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="6;6;6;6;14;38;38;6" keyTimes="0;.16;.32;.48;.60;.68;.9;1" dur="6.4s" repeatCount="indefinite"/>
-  </circle>
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;0;0;0;1;1;1;1" keyTimes="0;.16;.32;.48;.60;.68;.9;1" dur="6.4s" repeatCount="indefinite"/>
-    <text x="650" y="172" fill="#F5F4F0" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" letter-spacing="-1.8">MARCUS VALÉRIO<tspan fill="#C5D6EB">.</tspan></text>
-    <text x="653" y="202" fill="#C5D6EB" font-family="monospace" font-size="11" letter-spacing="3">CREATIVE THINKING / PRODUCT BUILDING</text>
+  <circle cx="600" cy="178" r="13" fill="none" stroke="#C5D6EB" opacity="0"><animate attributeName="opacity" values="0;0;0;0;.85;0;0;0" keyTimes="0;.14;.28;.44;.60;.68;.9;1" dur="6.2s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;6;6;13;40;40;6" keyTimes="0;.14;.28;.44;.60;.68;.9;1" dur="6.2s" repeatCount="indefinite"/></circle>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;0;0;1;1;1;1" keyTimes="0;.14;.28;.44;.60;.68;.9;1" dur="6.2s" repeatCount="indefinite"/>
+    <text x="650" y="174" fill="#F5F4F0" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="700" letter-spacing="-1.8">MARCUS VALÉRIO<tspan fill="#C5D6EB">.</tspan></text>
+    <text x="653" y="204" fill="#C5D6EB" font-family="monospace" font-size="11" letter-spacing="2.4">CREATIVE THINKING / PRODUCT BUILDING</text>
   </g>
-  <g font-family="monospace" font-size="10" letter-spacing="1.5">
-    <text x="70" y="270" fill="#F5F4F0" fill-opacity=".72">STRATEGY</text>
-    <text x="190" y="270" fill="#C5D6EB">+</text>
-    <text x="215" y="270" fill="#F5F4F0" fill-opacity=".72">CREATION</text>
-    <text x="325" y="270" fill="#C5D6EB">+</text>
-    <text x="350" y="270" fill="#F5F4F0" fill-opacity=".72">SYSTEMS</text>
-  </g>
-  <text x="1158" y="270" text-anchor="end" fill="#F5F4F0" fill-opacity=".5" font-family="monospace" font-size="10" letter-spacing="1.5">A WORK IN PROGRESS, ALWAYS.</text>
+  <g font-family="monospace" font-size="10" letter-spacing="1.5"><text x="72" y="270" fill="#F5F4F0" fill-opacity=".72">STRATEGY</text><text x="190" y="270" fill="#C5D6EB">+</text><text x="215" y="270" fill="#F5F4F0" fill-opacity=".72">CREATION</text><text x="325" y="270" fill="#C5D6EB">+</text><text x="350" y="270" fill="#F5F4F0" fill-opacity=".72">SYSTEMS</text></g>
+  <text x="1158" y="270" text-anchor="end" fill="#F5F4F0" fill-opacity=".5" font-family="monospace" font-size="10" letter-spacing="1.5">MAKE A MESS. FIND A METHOD.</text>
 </svg>
