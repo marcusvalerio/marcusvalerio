@@ -1,12 +1,36 @@
 <div align="center">
 
-<img src="./assets/dot-motion.svg" width="100%" alt="Marcus Valério — The Dot, an animated personal identity" />
+<img src="./assets/dot-motion.svg" width="100%" alt="Marcus Valério — ideas in motion" />
 
-**EN** · Product builder creating digital products for real-world workflows.  
-**PT** · Desenvolvo produtos digitais para transformar processos reais em sistemas úteis.
-
+<p>
+  <img src="https://img.shields.io/badge/STRATEGY-202124?style=flat-square&logoColor=C5D6EB" />
+  <img src="https://img.shields.io/badge/CREATIVE-202124?style=flat-square&logoColor=C5D6EB" />
+  <img src="https://img.shields.io/badge/MARKETING-202124?style=flat-square&logoColor=C5D6EB" />
+  <img src="https://img.shields.io/badge/PRODUCT-202124?style=flat-square&logoColor=C5D6EB" />
+  <img src="https://img.shields.io/badge/SYSTEMS-202124?style=flat-square&logoColor=C5D6EB" />
+</p>
 
 </div>
+
+---
+
+## About me / Sobre mim
+
+**EN** · I'm a creative thinker drawn to ideas, strategy, and the process of making things real. I enjoy connecting different disciplines and turning concepts into products, experiences, and systems that solve real problems.
+
+**PT** · Sou uma pessoa criativa, movida por ideias, estratégia e pela vontade de tirar projetos do papel. Gosto de conectar diferentes áreas e transformar conceitos em produtos, experiências e sistemas que resolvam problemas reais.
+
+<sub>My current studies focus on logistics — a field that keeps expanding how I think about processes, operations, and the world around us.</sub>  
+<sub>Atualmente, meus estudos estão voltados à logística — uma área que amplia minha forma de enxergar processos, operações e o mundo ao meu redor.</sub>
+
+## Areas of interest / Áreas de interesse
+
+| EN | PT |
+|:--|:--|
+| **Strategy** — positioning, planning, and opportunity discovery. | **Estratégia** — posicionamento, planejamento e identificação de oportunidades. |
+| **Creative** — visual direction, concepts, and experiences. | **Criação** — direção visual, conceitos e experiências. |
+| **Marketing** — communication, brand, and digital presence. | **Marketing** — comunicação, marca e presença digital. |
+| **Products & systems** — useful tools shaped around real workflows. | **Produtos e sistemas** — ferramentas úteis construídas a partir de processos reais. |
 
 ---
 
@@ -77,9 +101,9 @@
 
 | EN | PT |
 |:--|:--|
-| **Product thinking** — start with the real problem. | **Pensamento de produto** — começar pelo problema real. |
-| **Systems thinking** — understand workflows and constraints. | **Pensamento sistêmico** — compreender fluxos e restrições. |
-| **Build & refine** — turn ideas into working software. | **Construir e refinar** — transformar ideias em software funcional. |
+| **Think critically** — question assumptions before building. | **Pensar criticamente** — questionar antes de construir. |
+| **Connect the dots** — bring strategy, creativity, and systems together. | **Conectar ideias** — aproximar estratégia, criação e sistemas. |
+| **Make it real** — test, learn, refine, repeat. | **Tirar do papel** — testar, aprender, refinar e repetir. |
 
 ## Technology
 
@@ -93,7 +117,8 @@
 
 <div align="center">
 
-<a id="contact"></a>
+<img src="./assets/playground-motion.svg" width="100%" alt="Think, make, oops, repeat — a small playground for ideas" />
+
 **MARCUS VALÉRIO.**  
 Build. Learn. Improve.
 
