@@ -1,32 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
   <title id="title">What if we just made it? — Marcus Valério</title>
-  <desc id="desc">An editorial typographic animation. The question settles into place, a powder-blue underline draws beneath it, and Marcus Valério appears with a restrained fade.</desc>
+  <desc id="desc">A playful editorial composition where words shift, overlap and change scale, then resolve into Marcus Valério's name.</desc>
   <rect width="1200" height="340" fill="#202124"/>
 
-  <defs>
-    <clipPath id="headline-reveal">
-      <rect x="64" y="34" width="0" height="202">
-        <animate attributeName="width" values="0;0;1050;1050" keyTimes="0;.08;.3;1" dur="8s" repeatCount="indefinite"/>
-      </rect>
-    </clipPath>
-  </defs>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="-5">
+    <text x="74" y="112" font-size="76" fill="#F5F4F0" opacity="0">
+      what if
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.08;.38;.52;1" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="34;74;74;74;34" keyTimes="0;.08;.38;.52;1" dur="8s" repeatCount="indefinite"/>
+    </text>
 
-  <g clip-path="url(#headline-reveal)" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="-5">
-    <text x="70" y="126" fill="#F5F4F0" font-size="83">what if</text>
-    <text x="70" y="216" fill="#C5D6EB" font-size="83">we just made it?</text>
+    <text x="70" y="202" font-size="76" fill="#C5D6EB" opacity="0">
+      we just made it?
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.1;.2;.4;.54;1" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="145;145;70;70;70;145" keyTimes="0;.1;.2;.4;.54;1" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="font-size" values="58;58;76;76;58;58" keyTimes="0;.1;.2;.4;.54;1" dur="8s" repeatCount="indefinite"/>
+    </text>
   </g>
 
-  <path d="M72 239 H72" fill="none" stroke="#C5D6EB" stroke-width="3" stroke-linecap="round">
-    <animate attributeName="d" values="M72 239 H72;M72 239 H72;M72 239 H695;M72 239 H695;M72 239 H72" keyTimes="0;.23;.43;.83;1" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.22;.3;.83;1" dur="8s" repeatCount="indefinite"/>
-  </path>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="-4" opacity="0">
+    <text x="675" y="118" font-size="92" fill="#C5D6EB">MAKE</text>
+    <text x="820" y="205" font-size="92" fill="#F5F4F0">IT.</text>
+    <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.35;.4;.53;.74;1" dur="8s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="36 0;36 0;0 0;0 0;-12 0" keyTimes="0;.35;.53;.74;1" dur="8s" repeatCount="indefinite" additive="sum"/>
+  </g>
+
+  <g fill="none" stroke="#C5D6EB" stroke-width="2" stroke-linecap="square" opacity="0">
+    <path d="M72 232 H390 M410 232 H520">
+      <animate attributeName="stroke-dasharray" values="0 600;0 600;600 0;600 0;0 600" keyTimes="0;.3;.48;.75;1" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.28;.4;.75;1" dur="8s" repeatCount="indefinite"/>
+  </g>
 
   <g opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.48;.6;.84;1" dur="8s" repeatCount="indefinite"/>
-    <text x="72" y="300" fill="#F5F4F0" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" letter-spacing="-1">MARCUS VALÉRIO<tspan fill="#C5D6EB">.</tspan></text>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.64;.76;.88;1" dur="8s" repeatCount="indefinite"/>
+    <text x="72" y="294" fill="#F5F4F0" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="-1.5">MARCUS VALÉRIO<tspan fill="#C5D6EB">.</tspan></text>
+    <text x="1128" y="292" text-anchor="end" fill="#C5D6EB" font-family="monospace" font-size="12" letter-spacing="2">IDEAS → FORM</text>
   </g>
-
-  <rect x="72" y="316" width="0" height="2" fill="#C5D6EB" opacity=".8">
-    <animate attributeName="width" values="0;0;1056;1056;0" keyTimes="0;.58;.72;.84;1" dur="8s" repeatCount="indefinite"/>
-  </rect>
 </svg>
