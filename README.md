@@ -72,7 +72,10 @@
 </td>
 <td width="50%" valign="top">
 
-### AstraRP
+### ASTRA.ERP
+
+**EN** · Enterprise resource planning for business operations, bringing core workflows into one system.  
+**PT** · ERP empresarial para gestão de operações, conectando os principais processos da empresa em um único sistema.
 
 </td>
 </tr>
