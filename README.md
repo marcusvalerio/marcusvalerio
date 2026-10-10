@@ -16,21 +16,21 @@
 
 ## About me / Sobre mim
 
-**EN** · I'm a creative thinker drawn to ideas, strategy, and the process of making things real. I enjoy connecting different disciplines and turning concepts into products, experiences, and systems that solve real problems.
+**EN** · I'm a creative thinker drawn to ideas, strategy, and making things real. I enjoy connecting different disciplines and turning concepts into products, experiences, and systems that solve real problems.
 
 **PT** · Sou uma pessoa criativa, movida por ideias, estratégia e pela vontade de tirar projetos do papel. Gosto de conectar diferentes áreas e transformar conceitos em produtos, experiências e sistemas que resolvam problemas reais.
 
-<sub>My current studies focus on logistics — a field that keeps expanding how I think about processes, operations, and the world around us.</sub>  
-<sub>Atualmente, meus estudos estão voltados à logística — uma área que amplia minha forma de enxergar processos, operações e o mundo ao meu redor.</sub>
+<sub>My current studies focus on logistics, a field that keeps expanding how I think about processes, operations, and the world around us.</sub>  
+<sub>Atualmente, meus estudos estão voltados à logística, uma área que amplia minha forma de enxergar processos, operações e o mundo ao meu redor.</sub>
 
 ## Areas of interest / Áreas de interesse
 
 | EN | PT |
 |:--|:--|
-| **Strategy** — positioning, planning, and opportunity discovery. | **Estratégia** — posicionamento, planejamento e identificação de oportunidades. |
-| **Creative** — visual direction, concepts, and experiences. | **Criação** — direção visual, conceitos e experiências. |
-| **Marketing** — communication, brand, and digital presence. | **Marketing** — comunicação, marca e presença digital. |
-| **Products & systems** — useful tools shaped around real workflows. | **Produtos e sistemas** — ferramentas úteis construídas a partir de processos reais. |
+| **Strategy**: positioning, planning, and opportunity discovery. | **Estratégia**: posicionamento, planejamento e identificação de oportunidades. |
+| **Creative**: visual direction, concepts, and experiences. | **Criação**: direção visual, conceitos e experiências. |
+| **Marketing**: communication, brand, and digital presence. | **Marketing**: comunicação, marca e presença digital. |
+| **Products & systems**: useful tools shaped around real workflows. | **Produtos e sistemas**: ferramentas úteis construídas a partir de processos reais. |
 
 ---
 
@@ -74,8 +74,7 @@
 
 ### AstraRP
 
-**EN** · A creative project currently being prepared for its live preview.  
-**PT** · Um projeto criativo em preparação para seu preview público.
+[Live preview](#)
 
 </td>
 </tr>
@@ -84,8 +83,8 @@
 
 ### [ALTAR ↗](https://github.com/marcusvalerio/Altar)
 
-**EN** · A mobile-first Spiritist devotional PWA for reading and reflection.  
-**PT** · PWA devocional espírita, mobile-first, para leitura e reflexão.
+**EN** · A mobile first Spiritist devotional PWA for reading and reflection.  
+**PT** · PWA devocional espírita para leitura e reflexão.
 
 [Live demo](https://altar-teal.vercel.app) · [Source](https://github.com/marcusvalerio/Altar)
 
@@ -99,9 +98,9 @@
 
 | EN | PT |
 |:--|:--|
-| **Think critically** — question assumptions before building. | **Pensar criticamente** — questionar antes de construir. |
-| **Connect the dots** — bring strategy, creativity, and systems together. | **Conectar ideias** — aproximar estratégia, criação e sistemas. |
-| **Make it real** — test, learn, refine, repeat. | **Tirar do papel** — testar, aprender, refinar e repetir. |
+| **Think critically**: question assumptions before building. | **Pensar criticamente**: questionar antes de construir. |
+| **Connect the dots**: bring strategy, creativity, and systems together. | **Conectar ideias**: aproximar estratégia, criação e sistemas. |
+| **Make it real**: test, learn, refine, repeat. | **Tirar do papel**: testar, aprender, refinar e repetir. |
 
 ## Technology
 
