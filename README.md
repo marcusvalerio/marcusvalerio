@@ -74,8 +74,6 @@
 
 ### AstraRP
 
-[Live preview](#)
-
 </td>
 </tr>
 <tr>
