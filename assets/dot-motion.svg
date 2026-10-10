@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Marcus Valério — The Dot</title>
+  <desc id="desc">A powder-blue dot travels across a charcoal field, strikes a fine line, and reveals the name Marcus Valério.</desc>
+  <rect width="1200" height="300" rx="2" fill="#202124"/>
+  <g fill="none" stroke="#F5F4F0" stroke-opacity=".12">
+    <path d="M48 42H1152M48 258H1152"/>
+    <path d="M48 42V56M1152 42V56M48 244V258M1152 244V258"/>
+  </g>
+  <g fill="#C5D6EB" opacity=".18">
+    <circle cx="140" cy="90" r="2"/><circle cx="310" cy="220" r="2"/><circle cx="520" cy="74" r="2"/><circle cx="860" cy="225" r="2"/><circle cx="1080" cy="92" r="2"/>
+  </g>
+  <path d="M88 154H1112" stroke="#C5D6EB" stroke-opacity=".28" stroke-width="1"/>
+  <circle cx="88" cy="154" r="6" fill="#C5D6EB">
+    <animate attributeName="cx" values="88;260;420;580;625;625;625;625" keyTimes="0;.18;.37;.57;.64;.7;.88;1" dur="5.8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="154;116;190;126;154;154;154;154" keyTimes="0;.18;.37;.57;.64;.7;.88;1" dur="5.8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="6;6;6;6;10;4;4;6" keyTimes="0;.18;.37;.57;.64;.7;.88;1" dur="5.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="625" cy="154" r="16" fill="none" stroke="#C5D6EB" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0.7;0;0;0" keyTimes="0;.18;.37;.57;.64;.7;.88;1" dur="5.8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="8;8;8;8;16;28;28;8" keyTimes="0;.18;.37;.57;.64;.7;.88;1" dur="5.8s" repeatCount="indefinite"/>
+  </circle>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;1;1;1;1" keyTimes="0;.18;.37;.57;.64;.7;.88;1" dur="5.8s" repeatCount="indefinite"/>
+    <text x="660" y="145" fill="#F5F4F0" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="600" letter-spacing="-1.6">MARCUS VALÉRIO<tspan fill="#C5D6EB">.</tspan></text>
+    <text x="663" y="178" fill="#C5D6EB" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="4">PRODUCT BUILDER / DIGITAL SYSTEMS</text>
+  </g>
+  <text x="50" y="78" fill="#C5D6EB" font-family="monospace" font-size="11" letter-spacing="2">MARCUS.V / MOTION STUDY 001</text>
+  <text x="1150" y="78" text-anchor="end" fill="#F5F4F0" fill-opacity=".55" font-family="monospace" font-size="11" letter-spacing="2">IDEAS → SYSTEMS → IMPACT</text>
+</svg>
