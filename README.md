@@ -1,125 +1,110 @@
 <div align="center">
 
-<img src="./assets/dot-motion.svg" width="100%" alt="Marcus Valério — ideas in motion" />
+<img src="./assets/hero-playground.svg" width="100%" alt="MARCUS VALÉRIO. A blue square leaves the full stop of the name, ricochets across the frame and lands as the dot of a question mark, revealing: what if we just made it?" />
 
 <p>
-  <img src="https://img.shields.io/badge/STRATEGY-202124?style=flat-square&logoColor=C5D6EB" />
-  <img src="https://img.shields.io/badge/CREATIVE-202124?style=flat-square&logoColor=C5D6EB" />
-  <img src="https://img.shields.io/badge/MARKETING-202124?style=flat-square&logoColor=C5D6EB" />
-  <img src="https://img.shields.io/badge/PRODUCT-202124?style=flat-square&logoColor=C5D6EB" />
-  <img src="https://img.shields.io/badge/SYSTEMS-202124?style=flat-square&logoColor=C5D6EB" />
+  <b>Strategy, creative direction and systems, taken off the page.</b><br/>
+  <i>Estratégia, direção criativa e sistemas, tirados do papel.</i>
 </p>
 
 </div>
 
----
+## About / <i>Sobre mim</i>
 
-## About me / Sobre mim
+I'm a creative thinker who likes the moment an idea becomes something real. I connect strategy, marketing, design and technology to build products and systems that solve real problems.
 
-**EN** · I'm a creative thinker drawn to ideas, strategy, and making things real. I enjoy connecting different disciplines and turning concepts into products, experiences, and systems that solve real problems.
+<i>Sou movido por ideias e pelo momento em que elas viram algo real. Conecto estratégia, marketing, design e tecnologia para criar produtos e sistemas que resolvem problemas reais.</i>
 
-**PT** · Sou uma pessoa criativa, movida por ideias, estratégia e pela vontade de tirar projetos do papel. Gosto de conectar diferentes áreas e transformar conceitos em produtos, experiências e sistemas que resolvam problemas reais.
+> I currently study logistics, which shapes how I think about processes, operations and systems.<br/>
+> <i>Hoje estudo logística, o que molda minha forma de pensar processos, operações e sistemas.</i>
 
-<sub>My current studies focus on logistics, a field that keeps expanding how I think about processes, operations, and the world around us.</sub>  
-<sub>Atualmente, meus estudos estão voltados à logística, uma área que amplia minha forma de enxergar processos, operações e o mundo ao meu redor.</sub>
-
-## Areas of interest / Áreas de interesse
-
-| EN | PT |
-|:--|:--|
-| **Strategy**: positioning, planning, and opportunity discovery. | **Estratégia**: posicionamento, planejamento e identificação de oportunidades. |
-| **Creative**: visual direction, concepts, and experiences. | **Criação**: direção visual, conceitos e experiências. |
-| **Marketing**: communication, brand, and digital presence. | **Marketing**: comunicação, marca e presença digital. |
-| **Products & systems**: useful tools shaped around real workflows. | **Produtos e sistemas**: ferramentas úteis construídas a partir de processos reais. |
-
----
-
-## Selected work / Projetos em destaque
+## Areas of interest / <i>Áreas de interesse</i>
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### [CÓRTEX.OS ↗](https://github.com/marcusvalerio/fade.os)
-
-**EN** · Barbershop management.  
-**PT** · Gestão para barbearias.
-
-[Live demo](https://fadeos-five.vercel.app) · [Source](https://github.com/marcusvalerio/fade.os)
-
-</td>
-<td width="50%" valign="top">
-
-### [ARGUS.LLP ↗](https://github.com/marcusvalerio/FLUXOCIT.LLP)
-
-**EN** · 2D logistics layout planning and process-flow design.  
-**PT** · Planejamento 2D de layouts logísticos e fluxos de processos.
-
-[Source code](https://github.com/marcusvalerio/FLUXOCIT.LLP)
-
-</td>
+<td valign="top" width="30%"><b>Strategy</b><br/><i>Estratégia</i></td>
+<td valign="top">Finding the real problem before choosing a solution.<br/><i>Encontrar o problema real antes de escolher a solução.</i></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### [MONITORA.FLOW ↗](https://github.com/marcusvalerio/monitora.flow)
-
-**EN** · Urban mobility, bus/BRT GPS, rainfall and weather data.  
-**PT** · Mobilidade urbana, GPS de ônibus/BRT, chuva e clima.
-
-[Live demo](https://monitora-flow.vercel.app) · [Source](https://github.com/marcusvalerio/monitora.flow)
-
-</td>
-<td width="50%" valign="top">
-
-### ASTRA.ERP
-
-**EN** · Enterprise resource planning for business operations, bringing core workflows into one system.  
-**PT** · ERP empresarial para gestão de operações, conectando os principais processos da empresa em um único sistema.
-
-</td>
+<td valign="top"><b>Creative direction</b><br/><i>Direção criativa</i></td>
+<td valign="top">Giving an idea a point of view, a voice and a visual language.<br/><i>Dar a uma ideia um ponto de vista, uma voz e uma linguagem visual.</i></td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
-
-### [ALTAR ↗](https://github.com/marcusvalerio/Altar)
-
-**EN** · A mobile first Spiritist devotional PWA for reading and reflection.  
-**PT** · PWA devocional espírita para leitura e reflexão.
-
-[Live demo](https://altar-teal.vercel.app) · [Source](https://github.com/marcusvalerio/Altar)
-
-</td>
+<td valign="top"><b>Marketing</b><br/><i>Marketing</i></td>
+<td valign="top">Positioning and narrative: how people find something and why they stay.<br/><i>Posicionamento e narrativa: como as pessoas encontram algo e por que ficam.</i></td>
+</tr>
+<tr>
+<td valign="top"><b>Products and systems</b><br/><i>Produtos e sistemas</i></td>
+<td valign="top">Tools shaped around real workflows, from operations to everyday use.<br/><i>Ferramentas moldadas por fluxos reais, da operação ao uso cotidiano.</i></td>
 </tr>
 </table>
 
----
+## Selected work / <i>Projetos em destaque</i>
 
-## Approach / Abordagem
+### 01 · CÓRTEX.OS
 
-| EN | PT |
-|:--|:--|
-| **Think critically**: question assumptions before building. | **Pensar criticamente**: questionar antes de construir. |
-| **Connect the dots**: bring strategy, creativity, and systems together. | **Conectar ideias**: aproximar estratégia, criação e sistemas. |
-| **Make it real**: test, learn, refine, repeat. | **Tirar do papel**: testar, aprender, refinar e repetir. |
+A management system built around the daily operation of a barbershop.<br/>
+<i>Sistema de gestão pensado para a rotina de uma barbearia.</i>
 
-## Technology
+Next.js · Supabase · TypeScript<br/>
+**[Live demo ↗](https://fadeos-five.vercel.app)** · **[Source ↗](https://github.com/marcusvalerio/fade.os)**
 
-![React](https://img.shields.io/badge/React-202124?style=flat-square&logo=react&logoColor=C5D6EB)
-![Next.js](https://img.shields.io/badge/Next.js-202124?style=flat-square&logo=nextdotjs&logoColor=F5F4F0)
-![TypeScript](https://img.shields.io/badge/TypeScript-202124?style=flat-square&logo=typescript&logoColor=C5D6EB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-202124?style=flat-square&logo=postgresql&logoColor=C5D6EB)
-![Vercel](https://img.shields.io/badge/Vercel-202124?style=flat-square&logo=vercel&logoColor=F5F4F0)
+### 02 · ARGUS.LLP
 
----
+2D logistics layout planning and process-flow design.<br/>
+<i>Planejamento 2D de layouts logísticos e desenho de fluxos de processo.</i>
+
+React · Konva · TypeScript<br/>
+**[Source ↗](https://github.com/marcusvalerio/FLUXOCIT.LLP)**
+
+### 03 · MONITORA.FLOW
+
+Urban mobility in Rio de Janeiro: bus and BRT GPS read alongside rainfall and weather data.<br/>
+<i>Mobilidade urbana no Rio de Janeiro: GPS de ônibus e BRT cruzado com dados de chuva e clima.</i>
+
+Next.js · PostgreSQL · MapLibre<br/>
+**[Live demo ↗](https://monitora-flow.vercel.app)** · **[Source ↗](https://github.com/marcusvalerio/monitora.flow)**
+
+### 04 · ASTRA.ERP
+
+Enterprise resource planning that brings core business operations into one system.<br/>
+<i>ERP que reúne as principais operações de uma empresa em um único sistema.</i>
+
+### 05 · ALTAR
+
+A mobile-first Spiritist devotional PWA for daily reading and reflection. Works offline.<br/>
+<i>PWA devocional espírita, mobile-first, para leitura e reflexão diárias. Funciona offline.</i>
+
+Next.js · TypeScript · Tailwind CSS<br/>
+**[Live demo ↗](https://altar-teal.vercel.app)** · **[Source ↗](https://github.com/marcusvalerio/Altar)**
+
+## Approach / <i>Abordagem</i>
+
+<table>
+<tr>
+<td valign="top" width="30%"><b>Think critically</b><br/><i>Pensar criticamente</i></td>
+<td valign="top">Question the brief before building the answer.<br/><i>Questionar o briefing antes de construir a resposta.</i></td>
+</tr>
+<tr>
+<td valign="top"><b>Connect disciplines</b><br/><i>Conectar áreas</i></td>
+<td valign="top">Strategy, design, logistics and code inform each other.<br/><i>Estratégia, design, logística e código se informam.</i></td>
+</tr>
+<tr>
+<td valign="top"><b>Make it real</b><br/><i>Tirar do papel</i></td>
+<td valign="top">Turn concepts into working products and systems, then refine.<br/><i>Transformar conceitos em produtos e sistemas que funcionam e depois refinar.</i></td>
+</tr>
+</table>
+
+## Technology / <i>Tecnologia</i>
+
+React · Next.js · TypeScript · PostgreSQL · Supabase · Tailwind CSS · Vercel
+
+<br/>
 
 <div align="center">
 
-<img src="./assets/playground-motion.svg" width="100%" alt="Think, make, oops, repeat — a small playground for ideas" />
+<img src="./assets/playground-motion.svg" width="100%" alt="Think, make, oops, repeat. A small playground for ideas." />
 
-**MARCUS VALÉRIO.**  
-Build. Learn. Improve.
-
-
+**Build. Learn. Improve.**
 
 </div>
