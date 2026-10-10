@@ -2,8 +2,6 @@
   <title id="title">Marcus Valério. Ideas in motion.</title>
   <desc id="desc">A playful editorial animation where a small blue dot bounces across a charcoal canvas, hits a mark, and reveals the name Marcus Valério.</desc>
   <rect width="1200" height="340" fill="#202124"/>
-  <g stroke="#F5F4F0" stroke-opacity=".13" fill="none"><path d="M40 42H1160M40 298H1160"/><path d="M40 42v12M1160 42v12M40 286v12M1160 286v12"/></g>
-  <g fill="#F5F4F0" font-family="monospace" font-size="11" letter-spacing="2"><text x="42" y="28">MARCUS VALÉRIO / PERSONAL PLAYGROUND</text><text x="1158" y="28" text-anchor="end">IDEAS → THINGS</text></g>
   <g font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="-2">
     <text x="70" y="110" fill="#F5F4F0" font-size="36">what if</text>
     <text x="70" y="148" fill="#C5D6EB" font-size="36">we just made it?</text>
