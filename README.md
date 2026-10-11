@@ -1,4 +1,4 @@
-<img src="./assets/hero-playground.svg" width="100%" alt="MARCUS VALÉRIO. A blue square leaves the full stop of the name, ricochets across the frame and lands as the dot of a question mark, revealing: what if we just made it?" />
+<img src="./assets/hero-playground.svg" width="100%" alt="MARCUS VALÉRIO. An oval badge with the MV monogram reads Marcus Valério, Strategy and Systems, 20 26. Its cornerstone square arcs across the page and lands as the dot of the question mark in: what if we just made it?" />
 
 <p align="center"><a href="https://marcusvalerio.vercel.app"><b>marcusvalerio.vercel.app ↗</b></a></p>
 
