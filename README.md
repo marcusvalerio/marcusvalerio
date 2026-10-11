@@ -1,10 +1,14 @@
 <img src="./assets/hero-playground.svg" width="100%" alt="MARCUS VALÉRIO. A blue square leaves the full stop of the name, ricochets across the frame and lands as the dot of a question mark, revealing: what if we just made it?" />
 
-<p align="center"><a href="https://marcusvalerio.vercel.app"><b>marcusvalerio.vercel.app ↗</b></a></p>
+<p align="center">
+  <a href="https://marcusvalerio.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/site-dark.svg"><img src="./assets/pills/site-light.svg" alt="Site"></picture></a>
+  <a href="https://www.linkedin.com/in/marcusvaleriojunior"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/linkedin-dark.svg"><img src="./assets/pills/linkedin-light.svg" alt="LinkedIn"></picture></a>
+  <a href="mailto:contatomarcusjr@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/email-dark.svg"><img src="./assets/pills/email-light.svg" alt="Email"></picture></a>
+</p>
 
 <br/>
 
-## About · <i>Sobre</i>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/sec-about-dark.svg"><img src="./assets/pills/sec-about-light.svg" alt="About · Sobre"></picture></p>
 
 I'm a creative thinker who likes the moment an idea becomes something real. I connect strategy, marketing, design and technology to build products and systems that solve real problems.
 
@@ -15,7 +19,7 @@ I'm a creative thinker who likes the moment an idea becomes something real. I co
 
 <br/>
 
-## Areas of interest · <i>Áreas de interesse</i>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/sec-areas-dark.svg"><img src="./assets/pills/sec-areas-light.svg" alt="Areas of interest · Áreas de interesse"></picture></p>
 
 * **Strategy** · <i>Estratégia</i><br/>
   Finding the real problem before choosing a solution.<br/>
@@ -35,47 +39,70 @@ I'm a creative thinker who likes the moment an idea becomes something real. I co
 
 <br/>
 
-## Selected work · <i>Projetos em destaque</i>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/sec-work-dark.svg"><img src="./assets/pills/sec-work-light.svg" alt="Selected work · Projetos em destaque"></picture></p>
+
+<table>
+<tr><td>
 
 ### CÓRTEX.OS
+
 An operating system for barbershops: agenda, service, cash, commission and stock, at the counter and on every barber's phone.<br/>
 <i>Sistema operacional para barbearias: agenda, atendimento, caixa, comissão e estoque, no balcão e no celular de cada barbeiro.</i>
 
 `Next.js` `Supabase` `TypeScript`
 
-[Live demo ↗](https://fadeos-five.vercel.app) &nbsp;·&nbsp; [Source ↗](https://github.com/marcusvalerio/fade.os)
+<a href="https://fadeos-five.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/demo-dark.svg"><img src="./assets/pills/demo-light.svg" alt="Live demo"></picture></a> <a href="https://github.com/marcusvalerio/fade.os"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/source-dark.svg"><img src="./assets/pills/source-light.svg" alt="Source"></picture></a>
+
+</td></tr>
+<tr><td>
 
 ### ARGUS.LLP
+
 2D logistics layout planning and process flow design, with occupancy, capacity and bottleneck metrics calculated as you draw.<br/>
 <i>Planejamento 2D de layouts logísticos e desenho de fluxos de processo, com métricas de ocupação, capacidade e gargalo calculadas enquanto você desenha.</i>
 
 `React` `Konva` `TypeScript`
 
-[Source ↗](https://github.com/marcusvalerio/FLUXOCIT.LLP)
+<a href="https://github.com/marcusvalerio/FLUXOCIT.LLP"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/source-dark.svg"><img src="./assets/pills/source-light.svg" alt="Source"></picture></a>
+
+</td></tr>
+<tr><td>
 
 ### MONITORA.FLOW
+
 Urban mobility in Rio de Janeiro: bus and BRT GPS read alongside rainfall and weather data.<br/>
 <i>Mobilidade urbana no Rio de Janeiro: GPS de ônibus e BRT cruzado com dados de chuva e clima.</i>
 
 `Next.js` `PostgreSQL` `MapLibre`
 
-[Live demo ↗](https://monitora-flow.vercel.app) &nbsp;·&nbsp; [Source ↗](https://github.com/marcusvalerio/monitora.flow)
+<a href="https://monitora-flow.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/demo-dark.svg"><img src="./assets/pills/demo-light.svg" alt="Live demo"></picture></a> <a href="https://github.com/marcusvalerio/monitora.flow"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/source-dark.svg"><img src="./assets/pills/source-light.svg" alt="Source"></picture></a>
+
+</td></tr>
+<tr><td>
 
 ### ASTRA.ERP
+
 Enterprise resource planning that brings core business operations into one system.<br/>
 <i>ERP que reúne as principais operações de uma empresa em um único sistema.</i>
 
+</td></tr>
+<tr><td>
+
 ### ALTAR
+
 A Spiritist devotional PWA designed for the phone, for a few daily minutes of reading and reflection. Works offline, no login.<br/>
 <i>PWA devocional espírita pensado para o celular, para alguns minutos diários de leitura e reflexão. Funciona offline e sem login.</i>
 
 `Next.js` `TypeScript` `Tailwind CSS`
 
-[Live demo ↗](https://altar-teal.vercel.app) &nbsp;·&nbsp; [Source ↗](https://github.com/marcusvalerio/Altar)
+<a href="https://altar-teal.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/demo-dark.svg"><img src="./assets/pills/demo-light.svg" alt="Live demo"></picture></a> <a href="https://github.com/marcusvalerio/Altar"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/source-dark.svg"><img src="./assets/pills/source-light.svg" alt="Source"></picture></a>
+
+</td></tr>
+</table>
 
 <br/>
 
-## Approach · <i>Abordagem</i>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/sec-approach-dark.svg"><img src="./assets/pills/sec-approach-light.svg" alt="Approach · Abordagem"></picture></p>
 
 1. **Think critically.** Question the brief before building the answer.<br/>
    <i>**Pensar criticamente.** Questionar o briefing antes de construir a resposta.</i>
@@ -88,7 +115,7 @@ A Spiritist devotional PWA designed for the phone, for a few daily minutes of re
 
 <br/>
 
-## Tools · <i>Ferramentas</i>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/sec-tools-dark.svg"><img src="./assets/pills/sec-tools-light.svg" alt="Tools · Ferramentas"></picture></p>
 
 `React` `Next.js` `TypeScript` `PostgreSQL` `Supabase` `Tailwind CSS` `Vercel`
 
@@ -99,5 +126,7 @@ A Spiritist devotional PWA designed for the phone, for a few daily minutes of re
 <img src="./assets/playground-motion.svg" width="100%" alt="Think, make, oops, repeat. A small playground for ideas." />
 
 **Build. Learn. Improve.**
+
+<a href="https://marcusvalerio.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/site-dark.svg"><img src="./assets/pills/site-light.svg" alt="Site"></picture></a> <a href="https://www.linkedin.com/in/marcusvaleriojunior"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/linkedin-dark.svg"><img src="./assets/pills/linkedin-light.svg" alt="LinkedIn"></picture></a> <a href="mailto:contatomarcusjr@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pills/email-dark.svg"><img src="./assets/pills/email-light.svg" alt="Email"></picture></a>
 
 </div>
