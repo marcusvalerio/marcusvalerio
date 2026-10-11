@@ -2,27 +2,97 @@
 
 <p align="center"><a href="https://marcusvalerio.vercel.app"><b>marcusvalerio.vercel.app ↗</b></a></p>
 
-<img src="./assets/plates/about.svg" width="100%" alt="About. I'm a creative thinker who likes the moment an idea becomes something real. I connect strategy, marketing, design and technology to build products and systems that solve real problems. Sobre mim. Sou movido por ideias e pelo momento em que elas viram algo real. Conecto estratégia, marketing, design e tecnologia para criar produtos e sistemas que resolvem problemas reais. Now: I study logistics, which shapes how I think about processes, operations and systems. Agora: estudo logística, o que molda minha forma de pensar processos, operações e sistemas." />
+<br/>
 
-<img src="./assets/plates/areas.svg" width="100%" alt="Areas of interest. Strategy (Estratégia): finding the real problem before choosing a solution. Creative direction (Direção criativa): giving an idea a point of view, a voice and a visual language. Marketing: positioning and narrative, how people find something and why they stay. Products and systems (Produtos e sistemas): tools shaped around real workflows, from operations to everyday use." />
+## About · <i>Sobre</i>
 
-<a href="https://github.com/marcusvalerio/fade.os"><img src="./assets/plates/work-01-cortex.svg" width="100%" alt="01 CÓRTEX.OS. A management system built around the daily operation of a barbershop. Sistema de gestão pensado para a rotina de uma barbearia. Next.js, Supabase, TypeScript." /></a>
-<p align="right"><a href="https://fadeos-five.vercel.app">Live demo ↗</a> &nbsp;·&nbsp; <a href="https://github.com/marcusvalerio/fade.os">Source ↗</a></p>
+I'm a creative thinker who likes the moment an idea becomes something real. I connect strategy, marketing, design and technology to build products and systems that solve real problems.
 
-<a href="https://github.com/marcusvalerio/FLUXOCIT.LLP"><img src="./assets/plates/work-02-argus.svg" width="100%" alt="02 ARGUS.LLP. 2D logistics layout planning and process flow design. Planejamento 2D de layouts logísticos e desenho de fluxos de processo. React, Konva, TypeScript." /></a>
-<p align="right"><a href="https://github.com/marcusvalerio/FLUXOCIT.LLP">Source ↗</a></p>
+<i>Sou movido por ideias e pelo momento em que elas viram algo real. Conecto estratégia, marketing, design e tecnologia para criar produtos e sistemas que resolvem problemas reais.</i>
 
-<a href="https://github.com/marcusvalerio/monitora.flow"><img src="./assets/plates/work-03-monitora.svg" width="100%" alt="03 MONITORA.FLOW. Urban mobility in Rio de Janeiro: bus and BRT GPS read alongside rainfall and weather data. Mobilidade urbana no Rio: GPS de ônibus e BRT cruzado com dados de chuva e clima. Next.js, PostgreSQL, MapLibre." /></a>
-<p align="right"><a href="https://monitora-flow.vercel.app">Live demo ↗</a> &nbsp;·&nbsp; <a href="https://github.com/marcusvalerio/monitora.flow">Source ↗</a></p>
+> **Now** · I study logistics, which shapes how I think about processes, operations and systems.<br/>
+> <i>**Agora** · Estudo logística, o que molda minha forma de pensar processos, operações e sistemas.</i>
 
-<img src="./assets/plates/work-04-astra.svg" width="100%" alt="04 ASTRA.ERP. Enterprise resource planning that brings core business operations into one system. ERP que reúne as principais operações de uma empresa em um único sistema." />
+<br/>
 
-<a href="https://github.com/marcusvalerio/Altar"><img src="./assets/plates/work-05-altar.svg" width="100%" alt="05 ALTAR. A mobile first Spiritist devotional PWA for daily reading and reflection. Works offline. PWA devocional espírita, pensado para o celular, para leitura e reflexão diárias. Funciona offline. Next.js, TypeScript, Tailwind CSS." /></a>
-<p align="right"><a href="https://altar-teal.vercel.app">Live demo ↗</a> &nbsp;·&nbsp; <a href="https://github.com/marcusvalerio/Altar">Source ↗</a></p>
+## Areas of interest · <i>Áreas de interesse</i>
 
-<img src="./assets/plates/approach.svg" width="100%" alt="Approach. Think critically: question the brief before building the answer (questionar o briefing antes de construir a resposta). Connect disciplines: strategy, design, logistics and code inform each other (estratégia, design, logística e código se informam). Make it real: turn concepts into working products and systems, then refine (transformar conceitos em produtos e sistemas que funcionam, e depois refinar)." />
+* **Strategy** · <i>Estratégia</i><br/>
+  Finding the real problem before choosing a solution.<br/>
+  <i>Encontrar o problema real antes de escolher a solução.</i>
 
-<img src="./assets/plates/tools.svg" width="100%" alt="Tools: React, Next.js, TypeScript, PostgreSQL, Supabase, Tailwind CSS, Vercel." />
+* **Creative direction** · <i>Direção criativa</i><br/>
+  Giving an idea a point of view, a voice and a visual language.<br/>
+  <i>Dar a uma ideia ponto de vista, voz e linguagem visual.</i>
+
+* **Marketing**<br/>
+  Positioning and narrative: how people find something, and why they stay.<br/>
+  <i>Posicionamento e narrativa: como as pessoas chegam e por que ficam.</i>
+
+* **Products and systems** · <i>Produtos e sistemas</i><br/>
+  Tools shaped around real workflows, from operations to everyday use.<br/>
+  <i>Ferramentas moldadas por fluxos reais, da operação ao uso cotidiano.</i>
+
+<br/>
+
+## Selected work · <i>Projetos em destaque</i>
+
+### CÓRTEX.OS
+An operating system for barbershops: agenda, service, cash, commission and stock, at the counter and on every barber's phone.<br/>
+<i>Sistema operacional para barbearias: agenda, atendimento, caixa, comissão e estoque, no balcão e no celular de cada barbeiro.</i>
+
+`Next.js` `Supabase` `TypeScript`
+
+[Live demo ↗](https://fadeos-five.vercel.app) &nbsp;·&nbsp; [Source ↗](https://github.com/marcusvalerio/fade.os)
+
+### ARGUS.LLP
+2D logistics layout planning and process flow design, with occupancy, capacity and bottleneck metrics calculated as you draw.<br/>
+<i>Planejamento 2D de layouts logísticos e desenho de fluxos de processo, com métricas de ocupação, capacidade e gargalo calculadas enquanto você desenha.</i>
+
+`React` `Konva` `TypeScript`
+
+[Source ↗](https://github.com/marcusvalerio/FLUXOCIT.LLP)
+
+### MONITORA.FLOW
+Urban mobility in Rio de Janeiro: bus and BRT GPS read alongside rainfall and weather data.<br/>
+<i>Mobilidade urbana no Rio de Janeiro: GPS de ônibus e BRT cruzado com dados de chuva e clima.</i>
+
+`Next.js` `PostgreSQL` `MapLibre`
+
+[Live demo ↗](https://monitora-flow.vercel.app) &nbsp;·&nbsp; [Source ↗](https://github.com/marcusvalerio/monitora.flow)
+
+### ASTRA.ERP
+Enterprise resource planning that brings core business operations into one system.<br/>
+<i>ERP que reúne as principais operações de uma empresa em um único sistema.</i>
+
+### ALTAR
+A Spiritist devotional PWA designed for the phone, for a few daily minutes of reading and reflection. Works offline, no login.<br/>
+<i>PWA devocional espírita pensado para o celular, para alguns minutos diários de leitura e reflexão. Funciona offline e sem login.</i>
+
+`Next.js` `TypeScript` `Tailwind CSS`
+
+[Live demo ↗](https://altar-teal.vercel.app) &nbsp;·&nbsp; [Source ↗](https://github.com/marcusvalerio/Altar)
+
+<br/>
+
+## Approach · <i>Abordagem</i>
+
+1. **Think critically.** Question the brief before building the answer.<br/>
+   <i>**Pensar criticamente.** Questionar o briefing antes de construir a resposta.</i>
+
+2. **Connect disciplines.** Strategy, design, logistics and code inform each other.<br/>
+   <i>**Conectar áreas.** Estratégia, design, logística e código se informam.</i>
+
+3. **Make it real.** Turn concepts into working products and systems, then refine.<br/>
+   <i>**Tirar do papel.** Transformar conceitos em produtos e sistemas que funcionam, e depois refinar.</i>
+
+<br/>
+
+## Tools · <i>Ferramentas</i>
+
+`React` `Next.js` `TypeScript` `PostgreSQL` `Supabase` `Tailwind CSS` `Vercel`
+
+<br/>
 
 <div align="center">
 
